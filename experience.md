@@ -98,7 +98,7 @@ Taught the following theory and sessional courses at CUET.
 </table>
 
 
-## Fellow Member
+## Research Co-ordinator
 <span class="date_large_dp">**July 2021 - Present**</span>
 *<span class='font-12'>CUET NLP LAB</span>*<br>
 Graduate member: **July 2021 - Present**
