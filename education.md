@@ -4,16 +4,24 @@ layout: default
 
 # Education
 
+### Kansas State University KS, USA
+Ph.D. in Computer Science<br>
+July 2024 - Present<br>
+CGPA: <b>3.62</b> / 4.00
+<br><br>
+
+### Chittagong University of Engineering & Technology(CUET)
+M.Sc. in Computer Science and Engineering<br>
+January 2023 - June 2025<br>
+CGPA: <b>3.62</b> / 4.00
+<br><br>
+
 ### Chittagong University of Engineering & Technology(CUET)
 B.Sc. in Computer Science and Engineering<br>
 February 2016 - June 2021<br>
 CGPA: <b>3.80(with Honors)</b> / 4.00<br>
 Merit Position: <b>4<sup>th</sup></b> / 120
-<br><br>
-### Brahmanbaria Govt. College
-Higher Secondary School Certificate (HSC)<br>
-June 2013 - May 2015<br>
-GPA: 5.00 out of 5.00<br>
+
 
 ---
 # International Certification
