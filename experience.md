@@ -4,6 +4,21 @@ layout: default
 
 # <span class='red_h1'>Academic & Industrial</span>
 
+## Graduate Research Assistant
+<span class="date_large_dp">**Aug 2024 - Present**</span>
+*<span class='font-12'>DaSe Lab, Kansas State University</span>*<br>
+
+
+## Assessment Developer | Workera Remote: Palo Alto, CA, USA
+<span class="date_large_dp">**Sept 2023 - June 2024**</span>
+
+
+- Acted as the primary and secondary subject matter expert (SME), contributing to the creation of assessments in areas such as Natural Language Processing (NLP), Responsible AI, Cybersecurity, MLOps, and Computer Vision.
+
+- Streamlined the assessment development process by incorporating large language models (LLMs) to automate content creation.
+
+- Engaged in score calibration and the standardization of learning pathways for Computer Adaptive Tests.
+
 ## Lecturer
 <span class="date_large_dp">**July 2022 - July 2024**</span>
 *<span class='font-12'>Dept. of Computer Science & Engineering</span>*<br>
