@@ -3,7 +3,7 @@ layout: default
 ---
 
 # <span class='red_h1'>Technical Skills</span>
----
+
 
 <pre>
 <span style="color:rgb(201, 76, 76)">Language</span>             Python, C, C++ 
