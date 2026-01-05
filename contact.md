@@ -4,22 +4,10 @@ is_contact: true
 ---
 
 * Email: [avishek.das.ayan@gmail.com](mailto:avishek.das.ayan@gmail.com)<br>
- [avishek@cuet.ac.bd](mailto:avishekdas@cuet.ac.bd)
+ [avishek@ksu.edu](mailto:avishekdas@ksu.edu)
 
 
-* Phone: [+8801799730137](tel:+8801799730137)
 
----
-
-## Mailing Address
-
-> Lecturer, Dept. of CSE
->
-> Chittagong University of Engineering & Technology, Raozan
->
-> Chattogram-4349, Bangladesh
-
----
 
 ## Links
 
