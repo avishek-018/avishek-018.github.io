@@ -2,13 +2,16 @@
 layout: default
 ---
 
-# <span class='red_h1'>Academic & Industrial</span>
+# <span class='red_h1'>Technical Skills</span>
+---
 
-## Lecturer
-<span class="date_large_dp">**July 2022 - July 2024**</span>
-*<span class='font-12'>Dept. of Computer Science & Engineering</span>*<br>
-<span class='font-12'>Chittagong University of Engineering and Technology</span><br>
-<span class="date_small_dp">** **</span>
+<pre>
+<span style="color:rgb(201, 76, 76)">Language</span>             Python, C, C++ 
+<span style="color:rgb(201, 76, 76)">Moderate</span>               Java, JavaScript, MySQL, AJAX
+<span style="color:rgb(201, 76, 76)">Deep Learning </span>         TensorFlow, Keras, OpenCV, NLTK, Scikit-learn
+<span style="color:rgb(201, 76, 76)">Frameworks & Tools</span>     Flask, Django, Jupyter, Git, Latex, 
+<span style="color:rgb(201, 76, 76)">Server-side </span>           AWS, GCP, Firebase
+<span style="color:rgb(201, 76, 76)">IOT </span>                   Raspberry-PI, Arduino
 
 
 <table>
