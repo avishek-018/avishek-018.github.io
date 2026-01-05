@@ -5,16 +5,6 @@ layout: default
 # <span class='red_h1'>Technical Skills</span>
 
 
-
-<pre>
-<span style="color:rgb(201, 76, 76)">Language</span>             Python, C, C++ 
-<span style="color:rgb(201, 76, 76)">Moderate</span>               Java, JavaScript, MySQL, AJAX
-<span style="color:rgb(201, 76, 76)">Deep Learning </span>         TensorFlow, Keras, OpenCV, NLTK, Scikit-learn
-<span style="color:rgb(201, 76, 76)">Frameworks & Tools</span>     Flask, Django, Jupyter, Git, Latex, 
-<span style="color:rgb(201, 76, 76)">Server-side </span>           AWS, GCP, Firebase
-<span style="color:rgb(201, 76, 76)">IOT </span>                   Raspberry-PI, Arduino
-</pre>
-
 <table>
   <thead>
     <tr>
@@ -25,78 +15,136 @@ layout: default
   <tbody>
     <tr>
       <td>Programming Languages</td>
-      <td>Python, C, C++, Bash</td>
+      <td>
+        <ul>
+          <li>Python</li>
+          <li>C</li>
+          <li>C++</li>
+          <li>Bash</li>
+        </ul>
+      </td>
     </tr>
 
     <tr>
       <td>Machine Learning & Deep Learning</td>
       <td>
-        TensorFlow, Keras, PyTorch, Scikit-learn, OpenCV, NLTK, Neurosymbolic AI,
-        Explainable AI (XAI), LSTM/CNN models, Concept-based Interpretability
+        <ul>
+          <li>TensorFlow, Keras, PyTorch</li>
+          <li>Scikit-learn, OpenCV, NLTK</li>
+          <li>Neurosymbolic AI</li>
+          <li>Explainable AI (XAI)</li>
+          <li>LSTM / CNN models</li>
+          <li>Concept-based interpretability</li>
+        </ul>
       </td>
     </tr>
 
     <tr>
       <td>Large Language Models & NLP</td>
       <td>
-        Transformers, BERT, GPT-family models, HuggingFace (Transformers, Datasets, Tokenizers),
-        LLM interpretability (hidden neuron analysis, concept induction),
-        Text classification, Embeddings, Attention analysis, Prompt engineering
+        <ul>
+          <li>Transformers, BERT, GPT-family models</li>
+          <li>HuggingFace (Transformers, Datasets, Tokenizers)</li>
+          <li>LLM interpretability (hidden neuron analysis, concept induction)</li>
+          <li>Text classification & embeddings</li>
+          <li>Attention analysis</li>
+          <li>Prompt engineering</li>
+        </ul>
       </td>
     </tr>
 
     <tr>
       <td>Knowledge Graphs & Semantic Technologies</td>
       <td>
-        GraphDB (Ontotext), RDF/OWL, SPARQL, Ontologies, Knowledge graph construction,
-        Semantic pipelines, TTL modeling, Docker-based GraphDB deployment & memory tuning
+        <ul>
+          <li>GraphDB (Ontotext)</li>
+          <li>RDF / OWL, SPARQL</li>
+          <li>Ontology engineering</li>
+          <li>Knowledge graph construction & semantic pipelines</li>
+          <li>TTL modeling</li>
+          <li>Docker-based GraphDB deployment & memory tuning</li>
+        </ul>
       </td>
     </tr>
 
     <tr>
       <td>Frameworks & Tools</td>
       <td>
-        Jupyter, Git, LaTeX, Flask, Django, Docker, Docker-Compose,
-        Linux (Ubuntu), HPC/SLURM, NVIDIA CUDA basics
+        <ul>
+          <li>Jupyter, Git, LaTeX</li>
+          <li>Flask, Django</li>
+          <li>Docker, Docker Compose</li>
+          <li>Linux (Ubuntu)</li>
+          <li>HPC / SLURM</li>
+          <li>NVIDIA CUDA (basics)</li>
+        </ul>
       </td>
     </tr>
 
     <tr>
       <td>Computer Vision & Generative AI</td>
       <td>
-        Stable Diffusion, ControlNet, Diffusers, HED-based pipelines,
-        Image-to-image generation, Data augmentation,
-        Annotation processing (XML/COCO)
+        <ul>
+          <li>Stable Diffusion, ControlNet, Diffusers</li>
+          <li>HED-based pipelines</li>
+          <li>Image-to-image generation</li>
+          <li>Data augmentation</li>
+          <li>Annotation processing (XML / COCO)</li>
+        </ul>
       </td>
     </tr>
 
     <tr>
       <td>Cloud & Server-side</td>
-      <td>AWS (EC2, S3), GCP, Firebase, REST APIs, Deployment, Monitoring</td>
+      <td>
+        <ul>
+          <li>AWS (EC2, S3)</li>
+          <li>GCP</li>
+          <li>Firebase</li>
+          <li>REST APIs</li>
+          <li>Deployment & monitoring</li>
+        </ul>
+      </td>
     </tr>
 
     <tr>
       <td>Web</td>
-      <td>Java, JavaScript, SQL</td>
+      <td>
+        <ul>
+          <li>Java</li>
+          <li>JavaScript</li>
+          <li>SQL</li>
+        </ul>
+      </td>
     </tr>
 
     <tr>
       <td>Embedded & IoT</td>
       <td>
-        Raspberry Pi, Arduino, STM32 (FreeRTOS, CAN Bus),
-        Real-Time Systems, Scheduling (RM, NPCS), Cheddar tool analysis
+        <ul>
+          <li>Raspberry Pi, Arduino</li>
+          <li>STM32 (FreeRTOS, CAN Bus)</li>
+          <li>Real-time systems</li>
+          <li>Scheduling (RM, NPCS)</li>
+          <li>Cheddar tool analysis</li>
+        </ul>
       </td>
     </tr>
 
     <tr>
       <td>Other Technical Skills</td>
       <td>
-        Data engineering (Pandas, NumPy), Time-series modeling (LSTM forecasting),
-        GPS/CAN sensor data processing (Agricultural systems), Multi-sensor fusion
+        <ul>
+          <li>Data engineering (Pandas, NumPy)</li>
+          <li>Time-series modeling (LSTM forecasting)</li>
+          <li>GPS / CAN sensor data processing (agricultural systems)</li>
+          <li>Multi-sensor fusion</li>
+        </ul>
       </td>
     </tr>
   </tbody>
 </table>
+
 
 
 
