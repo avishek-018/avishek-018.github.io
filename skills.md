@@ -2,32 +2,15 @@
 layout: default
 ---
 
-# <span class='red_h1'>Technical Skills</span>
----
+# <span class='red_h1'>Academic & Industrial</span>
 
-<pre>
-<span style="color:rgb(201, 76, 76)">Language</span>             Python, C, C++ 
-<span style="color:rgb(201, 76, 76)">Moderate</span>               Java, JavaScript, MySQL, AJAX
-<span style="color:rgb(201, 76, 76)">Deep Learning </span>         TensorFlow, Keras, OpenCV, NLTK, Scikit-learn
-<span style="color:rgb(201, 76, 76)">Frameworks & Tools</span>     Flask, Django, Jupyter, Git, Latex, 
-<span style="color:rgb(201, 76, 76)">Server-side </span>           AWS, GCP, Firebase
-<span style="color:rgb(201, 76, 76)">IOT </span>                   Raspberry-PI, Arduino
+## Lecturer
+<span class="date_large_dp">**July 2022 - July 2024**</span>
+*<span class='font-12'>Dept. of Computer Science & Engineering</span>*<br>
+<span class='font-12'>Chittagong University of Engineering and Technology</span><br>
+<span class="date_small_dp">** **</span>
 
 
-| Category | Skills / Technologies |
-|---------|------------------------|
-| **Programming Languages** | Python, C, C++, Bash |
-| **Machine Learning & Deep Learning** | TensorFlow, Keras, PyTorch, Scikit-learn, OpenCV, NLTK, Neurosymbolic AI, Explainable AI (XAI), LSTM/CNN models, Concept-based Interpretability |
-| **Large Language Models & NLP** | Transformers, BERT, GPT-family models, HuggingFace (Transformers, Datasets, Tokenizers), LLM interpretability (hidden neuron analysis, concept induction), Text classification, Embeddings, Attention analysis, Prompt engineering |
-| **Knowledge Graphs & Semantic Technologies** | GraphDB (Ontotext), RDF/OWL, SPARQL, Ontologies, Knowledge graph construction, Semantic pipelines, TTL modeling, Docker-based GraphDB deployment & memory tuning |
-| **Frameworks & Tools** | Jupyter, Git, LaTeX, Flask, Django, Docker, Docker-Compose, Linux (Ubuntu), HPC/SLURM, NVIDIA CUDA basics |
-| **Computer Vision & Generative AI** | Stable Diffusion, ControlNet, Diffusers, HED-based pipelines, Image-to-image generation, Data augmentation, Annotation processing (XML/COCO) |
-| **Cloud & Server-side** | AWS (EC2, S3), GCP, Firebase, REST APIs, Deployment, Monitoring |
-| **Web** | Java, JavaScript, SQL |
-| **Embedded & IoT** | Raspberry Pi, Arduino, STM32 (FreeRTOS, CAN Bus), Real-Time Systems, Scheduling (RM, NPCS), Cheddar tool analysis |
-| **Other Technical Skills** | Data engineering (Pandas, NumPy), Time-series modeling (LSTM forecasting), GPS/CAN sensor data processing (Agricultural systems), Multi-sensor fusion |
-
-  
 <table>
   <thead>
     <tr>
