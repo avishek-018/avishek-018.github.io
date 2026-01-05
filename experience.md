@@ -9,9 +9,9 @@ layout: default
 *<span class='font-12'>DaSe Lab, Kansas State University</span>*<br>
 
 
-## Assessment Developer | Workera Remote: Palo Alto, CA, USA
+## Assessment Developer 
 <span class="date_large_dp">**Sept 2023 - June 2024**</span>
-
+*<span class='font-12'>Workera, CA, USA</span>*<br>
 
 - Acted as the primary and secondary subject matter expert (SME), contributing to the creation of assessments in areas such as Natural Language Processing (NLP), Responsible AI, Cybersecurity, MLOps, and Computer Vision.
 
