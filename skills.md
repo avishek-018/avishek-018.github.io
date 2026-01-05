@@ -14,90 +14,104 @@ layout: default
 <span style="color:rgb(201, 76, 76)">IOT </span>                   Raspberry-PI, Arduino
 
 
+| Category | Skills / Technologies |
+|---------|------------------------|
+| **Programming Languages** | Python, C, C++, Bash |
+| **Machine Learning & Deep Learning** | TensorFlow, Keras, PyTorch, Scikit-learn, OpenCV, NLTK, Neurosymbolic AI, Explainable AI (XAI), LSTM/CNN models, Concept-based Interpretability |
+| **Large Language Models & NLP** | Transformers, BERT, GPT-family models, HuggingFace (Transformers, Datasets, Tokenizers), LLM interpretability (hidden neuron analysis, concept induction), Text classification, Embeddings, Attention analysis, Prompt engineering |
+| **Knowledge Graphs & Semantic Technologies** | GraphDB (Ontotext), RDF/OWL, SPARQL, Ontologies, Knowledge graph construction, Semantic pipelines, TTL modeling, Docker-based GraphDB deployment & memory tuning |
+| **Frameworks & Tools** | Jupyter, Git, LaTeX, Flask, Django, Docker, Docker-Compose, Linux (Ubuntu), HPC/SLURM, NVIDIA CUDA basics |
+| **Computer Vision & Generative AI** | Stable Diffusion, ControlNet, Diffusers, HED-based pipelines, Image-to-image generation, Data augmentation, Annotation processing (XML/COCO) |
+| **Cloud & Server-side** | AWS (EC2, S3), GCP, Firebase, REST APIs, Deployment, Monitoring |
+| **Web** | Java, JavaScript, SQL |
+| **Embedded & IoT** | Raspberry Pi, Arduino, STM32 (FreeRTOS, CAN Bus), Real-Time Systems, Scheduling (RM, NPCS), Cheddar tool analysis |
+| **Other Technical Skills** | Data engineering (Pandas, NumPy), Time-series modeling (LSTM forecasting), GPS/CAN sensor data processing (Agricultural systems), Multi-sensor fusion |
 
-
-<table style="width:50%; border-collapse:collapse; font-family:Arial, sans-serif;">
+  
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Skills / Technologies</th>
+    </tr>
+  </thead>
   <tbody>
     <tr>
-      <td style="width:30%; font-weight:bold; color:#c94c4c; vertical-align:top;">Programming Languages</td>
-      <td style="vertical-align:top;">
-        Python, C, C++, Bash
+      <td>Programming Languages</td>
+      <td>Python, C, C++, Bash</td>
+    </tr>
+
+    <tr>
+      <td>Machine Learning & Deep Learning</td>
+      <td>
+        TensorFlow, Keras, PyTorch, Scikit-learn, OpenCV, NLTK, Neurosymbolic AI,
+        Explainable AI (XAI), LSTM/CNN models, Concept-based Interpretability
       </td>
     </tr>
 
     <tr>
-      <td style="font-weight:bold; color:#c94c4c; vertical-align:top;">Machine Learning & Deep Learning</td>
-      <td style="vertical-align:top;">
-        TensorFlow, Keras, PyTorch, Scikit-learn, OpenCV, NLTK, Neurosymbolic AI, Explainable AI (XAI), 
-        LSTM/CNN models, Concept-based Interpretability
+      <td>Large Language Models & NLP</td>
+      <td>
+        Transformers, BERT, GPT-family models, HuggingFace (Transformers, Datasets, Tokenizers),
+        LLM interpretability (hidden neuron analysis, concept induction),
+        Text classification, Embeddings, Attention analysis, Prompt engineering
       </td>
     </tr>
 
     <tr>
-      <td style="font-weight:bold; color:#c94c4c; vertical-align:top;">Large Language Models & NLP</td>
-      <td style="vertical-align:top;">
-        Transformers, BERT, GPT-family models, HuggingFace (Transformers, Datasets, Tokenizers), 
-        LLM interpretability (hidden neuron analysis, concept induction), Text classification, 
-        Embeddings, Attention analysis, Prompt engineering
+      <td>Knowledge Graphs & Semantic Technologies</td>
+      <td>
+        GraphDB (Ontotext), RDF/OWL, SPARQL, Ontologies, Knowledge graph construction,
+        Semantic pipelines, TTL modeling, Docker-based GraphDB deployment & memory tuning
       </td>
     </tr>
 
     <tr>
-      <td style="font-weight:bold; color:#c94c4c; vertical-align:top;">Knowledge Graphs & Semantic Technologies</td>
-      <td style="vertical-align:top;">
-        GraphDB (Ontotext), RDF/OWL, SPARQL, Ontologies, Knowledge graph construction, Semantic pipelines,
-        TTL modeling, Docker-based GraphDB deployment & memory tuning
+      <td>Frameworks & Tools</td>
+      <td>
+        Jupyter, Git, LaTeX, Flask, Django, Docker, Docker-Compose,
+        Linux (Ubuntu), HPC/SLURM, NVIDIA CUDA basics
       </td>
     </tr>
 
     <tr>
-      <td style="font-weight:bold; color:#c94c4c; vertical-align:top;">Frameworks & Tools</td>
-      <td style="vertical-align:top;">
-        Jupyter, Git, LaTeX, Flask, Django<br>
-        Docker, Docker-Compose, Linux (Ubuntu), HPC/SLURM<br>
-        NVIDIA CUDA basics
+      <td>Computer Vision & Generative AI</td>
+      <td>
+        Stable Diffusion, ControlNet, Diffusers, HED-based pipelines,
+        Image-to-image generation, Data augmentation,
+        Annotation processing (XML/COCO)
       </td>
     </tr>
 
     <tr>
-      <td style="font-weight:bold; color:#c94c4c; vertical-align:top;">Computer Vision & Generative AI</td>
-      <td style="vertical-align:top;">
-        Stable Diffusion, ControlNet, Diffusers, HED-based pipelines, Image-to-image generation, 
-        Data augmentation, Annotation processing (XML/COCO)
+      <td>Cloud & Server-side</td>
+      <td>AWS (EC2, S3), GCP, Firebase, REST APIs, Deployment, Monitoring</td>
+    </tr>
+
+    <tr>
+      <td>Web</td>
+      <td>Java, JavaScript, SQL</td>
+    </tr>
+
+    <tr>
+      <td>Embedded & IoT</td>
+      <td>
+        Raspberry Pi, Arduino, STM32 (FreeRTOS, CAN Bus),
+        Real-Time Systems, Scheduling (RM, NPCS), Cheddar tool analysis
       </td>
     </tr>
 
     <tr>
-      <td style="font-weight:bold; color:#c94c4c; vertical-align:top;">Cloud & Server-side</td>
-      <td style="vertical-align:top;">
-        AWS (EC2, S3), GCP, Firebase, REST APIs, Deployment, Monitoring
-      </td>
-    </tr>
-
-    <tr>
-      <td style="font-weight:bold; color:#c94c4c; vertical-align:top;">Web</td>
-      <td style="vertical-align:top;">
-        Java, JavaScript, SQL
-      </td>
-    </tr>
-
-    <tr>
-      <td style="font-weight:bold; color:#c94c4c; vertical-align:top;">Embedded & IoT</td>
-      <td style="vertical-align:top;">
-        Raspberry Pi, Arduino, STM32 (FreeRTOS, CAN Bus), Real-Time Systems, Scheduling (RM, NPCS), 
-        Cheddar tool analysis
-      </td>
-    </tr>
-
-    <tr>
-      <td style="font-weight:bold; color:#c94c4c; vertical-align:top;">Other Technical Skills</td>
-      <td style="vertical-align:top;">
-        Data engineering (Pandas, NumPy), Time-series modeling (LSTM forecasting), 
+      <td>Other Technical Skills</td>
+      <td>
+        Data engineering (Pandas, NumPy), Time-series modeling (LSTM forecasting),
         GPS/CAN sensor data processing (Agricultural systems), Multi-sensor fusion
       </td>
     </tr>
   </tbody>
 </table>
+
+
 
 
 
