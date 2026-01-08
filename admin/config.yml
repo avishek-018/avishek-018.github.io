@@ -3,6 +3,10 @@ backend:
   repo: avishek-018/avishek-018.github.io
   branch: main
 
+  # Your Render OAuth server:
+  base_url: https://decap-oauth-render.onrender.com
+  auth_endpoint: auth
+
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
