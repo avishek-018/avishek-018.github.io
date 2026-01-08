@@ -16,6 +16,10 @@ sass:
     style: compressed
     sass_dir: _sass
 
+collections:
+  publications:
+    output: false
+
 nav:
  - name: "About"
    link: "/"
@@ -31,3 +35,6 @@ nav:
    link: "skills.html"
  - name: "Contact"
    link: "contact.html"
+
+include:
+  - admin
