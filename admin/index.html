@@ -3,9 +3,60 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Content Manager</title>
+    <title>Avishek Das | Content Manager</title>
   </head>
   <body>
+    <h1 style="font-family: sans-serif;">Avishek Das CMS</h1>
+    <script>
+      window.CMS_MANUAL_INIT = true;
+    </script>
     <script src="https://unpkg.com/decap-cms@latest/dist/decap-cms.js"></script>
+    <script>
+      CMS.init({
+        config: {
+          backend: {
+            name: "github",
+            repo: "avishek-018/avishek-018.github.io",
+            branch: "main",
+            base_url: "https://decap-oauth-render.onrender.com",
+            auth_endpoint: "auth",
+          },
+          media_folder: "images/uploads",
+          public_folder: "/images/uploads",
+          collections: [
+            {
+              name: "publications",
+              label: "Publications",
+              folder: "_publications",
+              create: true,
+              slug: "{{slug}}",
+              fields: [
+                { label: "Title", name: "title", widget: "string" },
+                { label: "Authors", name: "authors", widget: "string" },
+                { label: "Venue", name: "venue", widget: "string" },
+                {
+                  label: "Venue URL",
+                  name: "venue_url",
+                  widget: "string",
+                  required: false,
+                },
+                {
+                  label: "Paper URL",
+                  name: "paper_url",
+                  widget: "string",
+                  required: false,
+                },
+                {
+                  label: "Category",
+                  name: "category",
+                  widget: "select",
+                  options: ["Journal", "Conference"],
+                },
+              ],
+            },
+          ],
+        },
+      });
+    </script>
   </body>
 </html>
