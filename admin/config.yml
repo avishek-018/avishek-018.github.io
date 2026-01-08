@@ -2,8 +2,6 @@ backend:
   name: github
   repo: avishek-018/avishek-018.github.io
   branch: main
-  base_url: https://decap-oauth-render.onrender.com
-  auth_endpoint: auth
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
