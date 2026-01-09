@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Authorizing…</title>
+</head>
+<body>
+<script>
+  (function () {
+    // Token is passed via query or hash
+    const params = new URLSearchParams(window.location.search);
+    const token = params.get("token");
+
+    if (!token) {
+      document.body.innerText = "Missing token";
+      return;
+    }
+
+    const payload = {
+      token: token,
+      provider: "github",
+      token_type: "bearer",
+    };
+
+    const msg = "authorization:github:success:" + JSON.stringify(payload);
+
+    if (window.opener) {
+      window.opener.postMessage(msg, window.location.origin);
+    }
+
+    window.close();
+  })();
+</script>
+</body>
+</html>
