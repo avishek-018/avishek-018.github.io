@@ -2,39 +2,64 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Authorizing…</title>
 </head>
 <body>
 <script>
 (function () {
-  // Read token from URL hash: #token=...
   const hash = window.location.hash.startsWith("#") ? window.location.hash.slice(1) : "";
   const params = new URLSearchParams(hash);
   const token = params.get("token");
+
+  function send(msg, targetOrigin) {
+    try { window.opener && window.opener.postMessage(msg, targetOrigin); } catch (e) {}
+  }
 
   if (!token) {
     document.body.innerText = "Missing token";
     return;
   }
 
-  // Immediately remove token from the address bar (no history entry)
-  history.replaceState(null, "", window.location.pathname);
-
+  const origin = window.location.origin;
   const payload = { token, provider: "github", token_type: "bearer" };
-  const msg = "authorization:github:success:" + JSON.stringify(payload);
+
+  // 1) Legacy Netlify/Decap string format (what you already do)
+  const msg_string = "authorization:github:success:" + JSON.stringify(payload);
+
+  // 2) Alternate legacy format some builds use
+  const msg_string_alt = "authorization:github:success:" + JSON.stringify({ token });
+
+  // 3) Object message formats used by newer handlers
+  const msg_obj_1 = { type: "authorization", provider: "github", status: "success", payload };
+  const msg_obj_2 = { type: "authorization:github", status: "success", token, token_type: "bearer" };
+  const msg_obj_3 = { type: "oauth", provider: "github", token, token_type: "bearer" };
+  const msg_obj_4 = { type: "decap-cms-auth", provider: "github", token, token_type: "bearer" };
+
+  // Fire everything to BOTH strict origin and wildcard
+  const targets = [origin, "*"];
+  const messages = [msg_string, msg_string_alt, msg_obj_1, msg_obj_2, msg_obj_3, msg_obj_4];
 
   if (window.opener && !window.opener.closed) {
-    const origin = window.location.origin;
-    window.opener.postMessage(msg, origin);
-    setTimeout(() => window.opener.postMessage(msg, origin), 50);
-    setTimeout(() => window.opener.postMessage(msg, origin), 150);
-    setTimeout(() => window.close(), 250);
+    for (const t of targets) {
+      for (const m of messages) {
+        send(m, t);
+      }
+    }
+
+    // Repeat a couple times in case Decap attaches listener late
+    setTimeout(() => {
+      for (const t of targets) for (const m of messages) send(m, t);
+    }, 100);
+
+    setTimeout(() => {
+      for (const t of targets) for (const m of messages) send(m, t);
+    }, 300);
+
+    setTimeout(() => window.close(), 600);
   } else {
     document.body.innerText = "No opener window";
   }
 })();
 </script>
-
 </body>
 </html>
