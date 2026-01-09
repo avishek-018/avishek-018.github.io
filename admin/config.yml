@@ -4,6 +4,8 @@ backend:
   branch: main
   base_url: https://decap-oauth-render.onrender.com
   auth_endpoint: auth
+  site_domain: avishek-018.github.io
+
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
