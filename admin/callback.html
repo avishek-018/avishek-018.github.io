@@ -8,44 +8,33 @@
 <body>
 <script>
 (function () {
+  // Read token from URL hash: #token=...
   const hash = window.location.hash.startsWith("#") ? window.location.hash.slice(1) : "";
   const params = new URLSearchParams(hash);
   const token = params.get("token");
 
-
-  // Helpful on-screen debug if something goes wrong.
-  function show(msg) {
-    document.body.innerText = msg;
-  }
-
   if (!token) {
-    show("Missing token");
+    document.body.innerText = "Missing token";
     return;
   }
+
+  // Immediately remove token from the address bar (no history entry)
+  history.replaceState(null, "", window.location.pathname);
 
   const payload = { token, provider: "github", token_type: "bearer" };
   const msg = "authorization:github:success:" + JSON.stringify(payload);
 
-  // If the opener exists, postMessage back to it.
   if (window.opener && !window.opener.closed) {
-    // Post to the *current* origin (must match the Decap page origin).
     const origin = window.location.origin;
-
-    // Send multiple times (some browsers drop the first message).
     window.opener.postMessage(msg, origin);
     setTimeout(() => window.opener.postMessage(msg, origin), 50);
     setTimeout(() => window.opener.postMessage(msg, origin), 150);
-
-    // Close after a short delay.
     setTimeout(() => window.close(), 250);
-    return;
+  } else {
+    document.body.innerText = "No opener window";
   }
-
-  // If opener is missing (popup isolation), don't silently fail:
-  // store the token in localStorage so you can confirm the page ran.
-  localStorage.setItem("decap_oauth_debug", msg);
-  show("No opener window. Saved debug message to localStorage key: decap_oauth_debug");
 })();
 </script>
+
 </body>
 </html>
