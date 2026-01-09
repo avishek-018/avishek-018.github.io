@@ -2,34 +2,48 @@
 <html>
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Authorizing…</title>
 </head>
 <body>
 <script>
-  (function () {
-    // Token is passed via query or hash
-    const params = new URLSearchParams(window.location.search);
-    const token = params.get("token");
+(function () {
+  const params = new URLSearchParams(window.location.search);
+  const token = params.get("token");
 
-    if (!token) {
-      document.body.innerText = "Missing token";
-      return;
-    }
+  // Helpful on-screen debug if something goes wrong.
+  function show(msg) {
+    document.body.innerText = msg;
+  }
 
-    const payload = {
-      token: token,
-      provider: "github",
-      token_type: "bearer",
-    };
+  if (!token) {
+    show("Missing token");
+    return;
+  }
 
-    const msg = "authorization:github:success:" + JSON.stringify(payload);
+  const payload = { token, provider: "github", token_type: "bearer" };
+  const msg = "authorization:github:success:" + JSON.stringify(payload);
 
-    if (window.opener) {
-      window.opener.postMessage(msg, window.location.origin);
-    }
+  // If the opener exists, postMessage back to it.
+  if (window.opener && !window.opener.closed) {
+    // Post to the *current* origin (must match the Decap page origin).
+    const origin = window.location.origin;
 
-    window.close();
-  })();
+    // Send multiple times (some browsers drop the first message).
+    window.opener.postMessage(msg, origin);
+    setTimeout(() => window.opener.postMessage(msg, origin), 50);
+    setTimeout(() => window.opener.postMessage(msg, origin), 150);
+
+    // Close after a short delay.
+    setTimeout(() => window.close(), 250);
+    return;
+  }
+
+  // If opener is missing (popup isolation), don't silently fail:
+  // store the token in localStorage so you can confirm the page ran.
+  localStorage.setItem("decap_oauth_debug", msg);
+  show("No opener window. Saved debug message to localStorage key: decap_oauth_debug");
+})();
 </script>
 </body>
 </html>
