@@ -13,7 +13,7 @@ Kansas State University
 
 ## About Me
 <div style="text-align: justify">
-Hi, I’m Avishek Das! I’m currently working as a Graduate Research Assistant at the Data Semantics Lab (DaSe Lab) at Kansas State University, where I’m lucky to be guided by Dr. Pascal Hitzler. My research is all about making AI more understandable and transparent, using tools like Knowledge Graphs to add a layer of clarity to complex systems. I’m particularly passionate about Explainable AI, Deep Learning, and the Semantic Web, and I’m always exploring new ways to make AI more interpretable and user-friendly. If you’re curious about my work or just want to chat, don’t hesitate to ask!
+Hi, I’m Avishek Das! I am currently working as a Graduate Research Assistant at the Data Semantics Lab (DaSe Lab) at Kansas State University, where I’m lucky to be guided by Dr. Pascal Hitzler. My research is all about making AI more understandable and transparent, using tools like Knowledge Graphs to add a layer of clarity to complex systems. I’m particularly passionate about Explainable AI, Deep Learning, and the Semantic Web, and I’m always exploring new ways to make AI more interpretable and user-friendly. If you’re curious about my work or just want to chat, don’t hesitate to ask!
 </div><br>
 Find [my CV](https://drive.google.com/file/d/1rTwPZBmA0Ck2q72cWIeXFMkCK0Oglkhb/view?usp=sharing){:target="_blank"} here.
 
