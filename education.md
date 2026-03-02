@@ -7,7 +7,6 @@ layout: default
 ### Kansas State University KS, USA
 Ph.D. in Computer Science<br>
 July 2024 - Present<br>
-CGPA: <b>3.62</b> / 4.00
 <br><br>
 
 ### Chittagong University of Engineering & Technology(CUET)
