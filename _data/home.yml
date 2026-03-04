@@ -17,16 +17,16 @@ about_markdown: Hi, I’m Avishek Das! I am currently working as a Graduate
 cv_url: https://drive.google.com/file/d/1rTwPZBmA0Ck2q72cWIeXFMkCK0Oglkhb/view?usp=sharing
 updates:
   - date_label: 01-25-2026
-    text: Course Completion Alert! AgenticAI from DeepLearning.AI
+    text: Course Completion Alert! AgenticAI - DeepLearning.AI
   - date_label: 09-22-2025
     text: Paper Accepted at K-CAP 2025
   - date_label: 10-11-2023
     text: 2 shared task papers accepted at BLP Workshop @EMNLP 2023
   - date_label: 09-13-2023
     text: Paper accepted at IEEE ACCESS
-  - date_label: 07-16-2023
-    text: Learning prompts engineering
-  - date_label: 07-10-23
+  - date_label: Jul-16-2023
+    text: Course Completion Alert! Prompt Engineering - DeepLearning.AI
+  - date_label: Jul-10-2023
     text: Started exploring multimodal domains(acoustic-visual-textual modalities)
 learning_resources:
   llms:
