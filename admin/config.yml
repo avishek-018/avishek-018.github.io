@@ -16,18 +16,24 @@ display_url: "https://avishek-018.github.io"
 collections:
   - name: "publications"
     label: "Publications"
-    folder: "_publications"
-    create: true
-    slug: "{{slug}}"
-    sortable_fields: ["order", "title", "authors", "venue"]
-    fields:
-      - { label: "Order", name: "order", widget: "number", value_type: "int", min: 1, default: 999 }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Authors", name: "authors", widget: "string" }
-      - { label: "Venue", name: "venue", widget: "string" }
-      - { label: "Venue URL", name: "venue_url", widget: "string", required: false }
-      - { label: "Paper URL", name: "paper_url", widget: "string", required: false }
-      - { label: "Category", name: "category", widget: "select", options: ["Journal", "Conference"] }
+    files:
+      - label: "Publication List (Drag to Reorder)"
+        name: "publication_list"
+        file: "_data/publications.yml"
+        fields:
+          - label: "Publications"
+            name: "publications"
+            widget: "list"
+            summary: "{{fields.order}}. {{fields.title}} ({{fields.category}})"
+            fields:
+              - { label: "Order", name: "order", widget: "number", value_type: "int", min: 1, default: 999 }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Authors", name: "authors", widget: "string" }
+              - { label: "Venue", name: "venue", widget: "string" }
+              - { label: "Venue URL", name: "venue_url", widget: "string", required: false }
+              - { label: "Paper URL", name: "paper_url", widget: "string", required: false }
+              - { label: "Category", name: "category", widget: "select", options: ["Journal", "Conference"] }
+              - { label: "Slug (optional)", name: "slug", widget: "string", required: false }
 
   - name: "site_content"
     label: "Site Content"
