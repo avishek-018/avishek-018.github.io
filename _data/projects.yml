@@ -1,0 +1,77 @@
+projects:
+  - title: "Superhero Name Generator"
+    summary: "Character-level deep learning sequence generation model to create superhero names from seed text."
+    tech_stack: ["Python", "TensorFlow", "Flask", "JavaScript", "CSS", "HTML"]
+    links:
+      - label: "GitHub"
+        url: "https://github.com/avishek-018/Superhero-Name-Generator"
+    bullets:
+      - "Built a character-level language model for next-character prediction."
+      - "Generated new superhero names by iterative sampling from the trained model."
+    featured: false
+    order: 1
+  - title: "TransEmoC - A Transformer-Based Unified Toolkit for Emotion Classification in a Low Resource Language"
+    summary: "Toolkit for training and validating transformer-based emotion classification models for low-resource languages."
+    tech_stack: ["Python", "TensorFlow", "Keras"]
+    links:
+      - label: "Capsule"
+        url: "https://codeocean.com/capsule/6765604/tree/v1"
+      - label: "GitHub"
+        url: "https://github.com/avishek-018/TransEmoC"
+    bullets:
+      - "Supports training/validation of transformer models."
+      - "Includes dataset and inference workflow for textual emotion prediction."
+    featured: false
+    order: 2
+  - title: "IOT-Based Face Recognition Attendance System"
+    summary: "Face-recognition attendance system for classroom-scale and entry-point attendance capture."
+    tech_stack: ["Python", "PyQT5", "TensorFlow", "OpenCV"]
+    links:
+      - label: "GitHub"
+        url: "https://github.com/avishek-018/iot_based_smart_attendance"
+    bullets:
+      - "Supports classroom-wide attendance from HD camera streams."
+      - "Can track in/out events at classroom entrances from CCTV feeds."
+    featured: false
+    order: 3
+  - title: "Fingertap Tone Generator"
+    summary: "Hobby project that mimics movie-like computer tones using finger taps."
+    tech_stack: ["Python", "TensorFlow.js", "HTML", "CSS"]
+    links:
+      - label: "GitHub"
+        url: "https://github.com/avishek-018/fingerTap_koimillgeya_mimic"
+    bullets:
+      - "Uses TensorFlow.js Handpose for hand/finger interaction."
+      - "Implements a playful real-time tone generation flow."
+    featured: false
+    order: 4
+  - title: "Varsity Enrollment Log System"
+    summary: "Django-based university enrollment log system built as a team software project."
+    tech_stack: ["Python", "Django", "D3.js", "SQLite", "HTML", "CSS", "JavaScript"]
+    links:
+      - label: "GitHub"
+        url: "https://github.com/avishek-018/varsity_enroll"
+    bullets:
+      - "Built with Django, D3.js, Ajax, HTML, CSS, Material CSS, and JavaScript."
+      - "Focused on real-world team development workflow and on-time delivery."
+    featured: false
+    order: 5
+  - title: "Python Packages"
+    summary: "Published multiple Python packages for public use."
+    tech_stack: ["Python", "Markdown"]
+    links:
+      - label: "PyPI Profile"
+        url: "https://pypi.org/user/avishek_das/"
+    bullets:
+      - "Maintains public packages for broader developer use."
+    featured: false
+    order: 6
+  - title: "Control My Movie"
+    summary: "A mini Python script where one user can remotely control another user's media player."
+    tech_stack: ["Python", "Firebase"]
+    links: []
+    bullets:
+      - "Supported controls: pause, mute, volume up/down, forward, rewind."
+      - "Supported players: Pot Player, KM Player."
+    featured: false
+    order: 7

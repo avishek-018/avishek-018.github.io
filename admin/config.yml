@@ -1,12 +1,12 @@
+publish_mode: editorial_workflow
+
 backend:
   name: github
   repo: avishek-018/avishek-018.github.io
   branch: main
-  base_url: https://decap-oauth-render.onrender.com
+  base_url: https://decap-oauth-vercel-gamma.vercel.app
   auth_endpoint: auth
   api_root: https://api.github.com
-
-
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
@@ -26,3 +26,247 @@ collections:
       - { label: "Venue URL", name: "venue_url", widget: "string", required: false }
       - { label: "Paper URL", name: "paper_url", widget: "string", required: false }
       - { label: "Category", name: "category", widget: "select", options: ["Journal", "Conference"] }
+
+  - name: "site_content"
+    label: "Site Content"
+    files:
+      - label: "Home"
+        name: "home"
+        file: "_data/home.yml"
+        fields:
+          - label: "Profile"
+            name: "profile"
+            widget: "object"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Photo", name: "photo", widget: "image" }
+              - label: "Title Lines"
+                name: "title_lines"
+                widget: "list"
+                field: { label: "Line", name: "line", widget: "string" }
+          - { label: "About", name: "about_markdown", widget: "markdown" }
+          - { label: "CV URL", name: "cv_url", widget: "string" }
+          - label: "Updates"
+            name: "updates"
+            widget: "list"
+            fields:
+              - { label: "Date Label", name: "date_label", widget: "string" }
+              - { label: "Text", name: "text", widget: "string" }
+          - label: "Learning Resources"
+            name: "learning_resources"
+            widget: "object"
+            fields:
+              - label: "LLMs"
+                name: "llms"
+                widget: "list"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+              - label: "Books"
+                name: "books"
+                widget: "list"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+              - label: "Advice"
+                name: "advice"
+                widget: "list"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+              - label: "Blogs"
+                name: "blogs"
+                widget: "list"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+          - { label: "Quote", name: "quote", widget: "string" }
+
+      - label: "Education"
+        name: "education"
+        file: "_data/education.yml"
+        fields:
+          - label: "Degrees"
+            name: "degrees"
+            widget: "list"
+            fields:
+              - { label: "Institution", name: "institution", widget: "string" }
+              - { label: "Location", name: "location", widget: "string", required: false }
+              - { label: "Program", name: "program", widget: "string" }
+              - { label: "Start", name: "start", widget: "string" }
+              - { label: "End", name: "end", widget: "string" }
+              - label: "Details"
+                name: "details"
+                widget: "list"
+                required: false
+                field: { label: "Detail", name: "detail", widget: "string" }
+          - label: "Certifications"
+            name: "certifications"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Score or Status", name: "score_or_status", widget: "string" }
+              - { label: "Meta", name: "meta", widget: "string", required: false }
+              - { label: "URL", name: "url", widget: "string", required: false }
+          - label: "Online Courses"
+            name: "online_courses"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+
+      - label: "Experience"
+        name: "experience"
+        file: "_data/experience.yml"
+        fields:
+          - label: "Roles"
+            name: "roles"
+            widget: "list"
+            fields:
+              - { label: "Role", name: "role", widget: "string" }
+              - { label: "Organization", name: "org", widget: "string" }
+              - { label: "Location", name: "location", widget: "string", required: false }
+              - { label: "Start", name: "start", widget: "string" }
+              - { label: "End", name: "end", widget: "string" }
+              - { label: "Current", name: "current", widget: "boolean", default: false }
+              - label: "Highlights"
+                name: "highlights"
+                widget: "list"
+                required: false
+                field: { label: "Highlight", name: "highlight", widget: "string" }
+              - label: "Tags"
+                name: "tags"
+                widget: "list"
+                required: false
+                field: { label: "Tag", name: "tag", widget: "string" }
+          - label: "Teaching Table"
+            name: "teaching_table"
+            widget: "object"
+            required: false
+            fields:
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - { label: "Course", name: "course", widget: "string" }
+                  - { label: "Class Size", name: "class_size", widget: "string" }
+                  - { label: "Status", name: "status", widget: "string" }
+          - label: "Subsections"
+            name: "subsections"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Entries"
+                name: "entries"
+                widget: "list"
+                field: { label: "Entry", name: "entry", widget: "string" }
+
+      - label: "Projects"
+        name: "projects"
+        file: "_data/projects.yml"
+        fields:
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Summary", name: "summary", widget: "text", required: false }
+              - label: "Tech Stack"
+                name: "tech_stack"
+                widget: "list"
+                field: { label: "Tech", name: "tech", widget: "string" }
+              - label: "Links"
+                name: "links"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+              - label: "Bullets"
+                name: "bullets"
+                widget: "list"
+                required: false
+                field: { label: "Bullet", name: "bullet", widget: "string" }
+              - { label: "Featured", name: "featured", widget: "boolean", default: false }
+              - { label: "Order", name: "order", widget: "number", value_type: "int", min: 1 }
+
+      - label: "Skills"
+        name: "skills"
+        file: "_data/skills.yml"
+        fields:
+          - label: "Categories"
+            name: "categories"
+            widget: "list"
+            fields:
+              - { label: "Category Name", name: "name", widget: "string" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                field: { label: "Item", name: "item", widget: "string" }
+          - label: "Leadership Roles"
+            name: "leadership_roles"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Organization", name: "org", widget: "string" }
+              - { label: "Start", name: "start", widget: "string" }
+              - { label: "End", name: "end", widget: "string" }
+
+      - label: "Contact"
+        name: "contact"
+        file: "_data/contact.yml"
+        fields:
+          - { label: "Intro", name: "intro_markdown", widget: "markdown" }
+          - label: "Emails"
+            name: "emails"
+            widget: "list"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Address", name: "address", widget: "string" }
+          - label: "Profiles"
+            name: "profiles"
+            widget: "list"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+          - { label: "Show Map Script", name: "show_map_script", widget: "boolean", default: false }
+
+  - name: "site_settings"
+    label: "Site Settings"
+    files:
+      - label: "Global Config"
+        name: "global_config"
+        file: "_config.yml"
+        fields:
+          - { label: "Site Title", name: "title", widget: "string" }
+          - { label: "Site URL", name: "url", widget: "string" }
+          - { label: "Tracking ID", name: "tracking_id", widget: "string", required: false }
+          - { label: "Show Footer", name: "footer", widget: "boolean", default: true }
+          - { label: "Footer URL", name: "footer_url", widget: "string", required: false }
+          - { label: "Footer Text", name: "footer_text", widget: "string", required: false }
+          - label: "Navigation"
+            name: "nav"
+            widget: "list"
+            fields:
+              - { label: "Label", name: "name", widget: "string" }
+              - { label: "Link", name: "link", widget: "string" }
+          - label: "Include Paths"
+            name: "include"
+            widget: "list"
+            field: { label: "Path", name: "path", widget: "string" }
+          - label: "Sass"
+            name: "sass"
+            widget: "object"
+            fields:
+              - { label: "Style", name: "style", widget: "string", default: "compressed" }
+              - { label: "Sass Dir", name: "sass_dir", widget: "string", default: "_sass" }
+          - label: "Collections"
+            name: "collections"
+            widget: "object"
+            fields:
+              - label: "Publications"
+                name: "publications"
+                widget: "object"
+                fields:
+                  - { label: "Output", name: "output", widget: "boolean", default: false }

@@ -1,0 +1,47 @@
+profile:
+  name: "Avishek Das"
+  photo: "images/avishek.jpg"
+  title_lines:
+    - "Graduate Research Assistant, DaSe Lab"
+    - "PhD Student, Dept. of Computer Science"
+    - "Kansas State University"
+about_markdown: |
+  Hi, I’m Avishek Das! I am currently working as a Graduate Research Assistant at the Data Semantics Lab (DaSe Lab) at Kansas State University, where I’m lucky to be guided by Dr. Pascal Hitzler. My research is all about making AI more understandable and transparent, using tools like Knowledge Graphs to add a layer of clarity to complex systems. I’m particularly passionate about Explainable AI, Deep Learning, and the Semantic Web, and I’m always exploring new ways to make AI more interpretable and user-friendly. If you’re curious about my work or just want to chat, don’t hesitate to ask!
+cv_url: "https://drive.google.com/file/d/1rTwPZBmA0Ck2q72cWIeXFMkCK0Oglkhb/view?usp=sharing"
+updates:
+  - date_label: "11-10-23"
+    text: "2 shared task papers accepted at BLP Workshop @EMNLP 2023"
+  - date_label: "13-09-23"
+    text: "Paper accepted at IEEE ACCESS"
+  - date_label: "16-07-23"
+    text: "Learning prompts engineering"
+  - date_label: "10-07-23"
+    text: "Started exploring multimodal domains(acoustic-visual-textual modalities)"
+learning_resources:
+  llms:
+    - label: "LangChain - I love these videos"
+      url: "https://www.youtube.com/playlist?list=PLqZXAkvF1bPNQER9mLmDbntNfSpzdDIU5"
+  books:
+    - label: "Deep Learning with Python"
+      url: "https://www.manning.com/books/deep-learning-with-python"
+    - label: "Transformers for Natural Language Processing"
+      url: "https://www.packtpub.com/product/transformers-for-natural-language-processing-second-edition/9781803247335"
+  advice:
+    - label: "Collection of Advices"
+      url: "http://taoxie.cs.illinois.edu/advice.htm"
+    - label: "Advice for Researchers and Students"
+      url: "https://homes.cs.washington.edu/~mernst/advice/#all-students"
+    - label: "Career advice by Andrew Ng"
+      url: "https://www.youtube.com/watch?v=733m6qBH-jI&t=655s&ab_channel=stanfordonline"
+    - label: "Advice for Research Students Jason Eisner"
+      url: "https://www.cs.jhu.edu/~jason/advice/"
+  blogs:
+    - label: "ACL Year-Round Mentorship"
+      url: "https://mentorship.aclweb.org/Home.html"
+    - label: "Awesome illustrations of Jay Alammar"
+      url: "http://jalammar.github.io/"
+    - label: "Colah's Blog"
+      url: "http://colah.github.io/"
+    - label: "Machine Learning Mystery Jason Brownlee"
+      url: "https://machinelearningmastery.com/category/natural-language-processing/"
+quote: "Chase purpose, not perfection"

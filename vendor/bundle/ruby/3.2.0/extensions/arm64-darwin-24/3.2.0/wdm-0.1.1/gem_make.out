@@ -1,0 +1,14 @@
+current directory: /Users/avishek/Documents/projects/decap_cms_portfolio/avishek-018.github.io/vendor/bundle/ruby/3.2.0/gems/wdm-0.1.1/ext/wdm
+/opt/homebrew/opt/ruby@3.2/bin/ruby extconf.rb
+
+current directory: /Users/avishek/Documents/projects/decap_cms_portfolio/avishek-018.github.io/vendor/bundle/ruby/3.2.0/gems/wdm-0.1.1/ext/wdm
+make DESTDIR\= sitearchdir\=./.gem.20260303-6426-l6j9n2 sitelibdir\=./.gem.20260303-6426-l6j9n2 clean
+
+current directory: /Users/avishek/Documents/projects/decap_cms_portfolio/avishek-018.github.io/vendor/bundle/ruby/3.2.0/gems/wdm-0.1.1/ext/wdm
+make DESTDIR\= sitearchdir\=./.gem.20260303-6426-l6j9n2 sitelibdir\=./.gem.20260303-6426-l6j9n2
+
+current directory: /Users/avishek/Documents/projects/decap_cms_portfolio/avishek-018.github.io/vendor/bundle/ruby/3.2.0/gems/wdm-0.1.1/ext/wdm
+make DESTDIR\= sitearchdir\=./.gem.20260303-6426-l6j9n2 sitelibdir\=./.gem.20260303-6426-l6j9n2 install
+
+current directory: /Users/avishek/Documents/projects/decap_cms_portfolio/avishek-018.github.io/vendor/bundle/ruby/3.2.0/gems/wdm-0.1.1/ext/wdm
+make DESTDIR\= sitearchdir\=./.gem.20260303-6426-l6j9n2 sitelibdir\=./.gem.20260303-6426-l6j9n2 clean
