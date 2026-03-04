@@ -1,6 +1,5 @@
 ---
 title: "BMGC: A Deep Learning Approach to Classify Bangla Music Genres"
-order: 4
 authors: "Moumita Sen Sarma and **Avishek Das**"
 venue: "NISS 2021"
 venue_url: "http://medi-ast.org/NISS2021/"

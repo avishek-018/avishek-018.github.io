@@ -1,6 +1,5 @@
 ---
 title: "FaND-X: Fake News Detection using Transformer-based Multilingual Masked Language Model"
-order: 8
 authors: "MD Sijanur Rahman, Omar Sharif, **Avishek Das**, Sadia Afroze, Mohammed Moshiul Hoque"
 venue: "WIECON ECE 2022"
 venue_url: "https://wiecon-ece.org/"

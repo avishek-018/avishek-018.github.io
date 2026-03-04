@@ -17,23 +17,28 @@ collections:
   - name: "publications"
     label: "Publications"
     files:
-      - label: "Publication List (Drag to Reorder)"
+      - label: "Publication Sections"
         name: "publication_list"
         file: "_data/publications.yml"
         fields:
-          - label: "Publications"
-            name: "publications"
+          - label: "Sections"
+            name: "sections"
             widget: "list"
-            summary: "{{fields.order}}. {{fields.title}} ({{fields.category}})"
+            summary: "{{fields.name}}"
             fields:
-              - { label: "Order", name: "order", widget: "number", value_type: "int", min: 1, default: 999 }
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Authors", name: "authors", widget: "string" }
-              - { label: "Venue", name: "venue", widget: "string" }
-              - { label: "Venue URL", name: "venue_url", widget: "string", required: false }
-              - { label: "Paper URL", name: "paper_url", widget: "string", required: false }
-              - { label: "Category", name: "category", widget: "select", options: ["Journal", "Conference"] }
-              - { label: "Slug (optional)", name: "slug", widget: "string", required: false }
+              - { label: "Section Name", name: "name", widget: "string", hint: "You can rename this anytime (e.g. Journals, Conferences, Workshops)." }
+              - { label: "Section Slug (optional)", name: "slug", widget: "string", required: false }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Authors", name: "authors", widget: "string" }
+                  - { label: "Venue", name: "venue", widget: "string" }
+                  - { label: "Venue URL", name: "venue_url", widget: "string", required: false }
+                  - { label: "Paper URL", name: "paper_url", widget: "string", required: false }
+                  - { label: "Slug (optional)", name: "slug", widget: "string", required: false }
 
   - name: "site_content"
     label: "Site Content"
@@ -94,6 +99,13 @@ collections:
         name: "education"
         file: "_data/education.yml"
         fields:
+          - label: "Section Titles"
+            name: "headings"
+            widget: "object"
+            fields:
+              - { label: "Main Title", name: "main_title", widget: "string" }
+              - { label: "Certifications Section Title", name: "certifications_title", widget: "string" }
+              - { label: "Courses Section Title", name: "courses_title", widget: "string" }
           - label: "Degrees"
             name: "degrees"
             widget: "list"

@@ -13,23 +13,17 @@ layout: default
 
 [GOOGLE SCHOLAR](https://scholar.google.com/citations?user=vmA2X1kAAAAJ) | [ResearchGate](https://www.researchgate.net/profile/Avishek-Das-11) | [ORCiD](https://orcid.org/my-orcid?orcid=0000-0002-1589-8322) | [Semantic Scholar](https://www.semanticscholar.org/author/Avishek-Das/2113241072)
 
-## Journals
+{% assign publication_sections = site.data.publications.sections %}
+{% for section in publication_sections %}
+{% if section.items and section.items.size > 0 %}
+## {{ section.name }}
 ---
-{% assign all_publications = site.data.publications.publications %}
-{% assign journal_publications = all_publications | where: "category", "Journal" %}
-{% for publication in journal_publications %}
+{% for publication in section.items %}
 * {{ publication.title }}<br>
 {{ publication.authors }}<br>
 {% if publication.venue_url %}[{{ publication.venue }}]({{ publication.venue_url }}){% else %}{{ publication.venue }}{% endif %}{% if publication.paper_url %} / [Paper]({{ publication.paper_url }}){% endif %}
 {% endfor %}
 
-## Conferences
----
-{% assign conference_publications = all_publications | where: "category", "Conference" %}
-{% for publication in conference_publications %}
-* {{ publication.title }}<br>
-{{ publication.authors }}<br>
-{% if publication.venue_url %}[{{ publication.venue }}]({{ publication.venue_url }}){% else %}{{ publication.venue }}{% endif %}{% if publication.paper_url %} / [Paper]({{ publication.paper_url }}){% endif %}
+{% endif %}
 {% endfor %}
-
 

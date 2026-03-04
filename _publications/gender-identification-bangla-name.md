@@ -1,6 +1,5 @@
 ---
 title: "Gender Identification from Bangla Name Using Machine Learning and Deep Learning Algorithms"
-order: 9
 authors: "Md. Kowsher, Md. Zahidul Islam Sanjid, Fahmida Afrin, **Avishek Das**, Pushpita Saha"
 venue: "IEMIS 2020"
 venue_url: "http://iemschoolofit.in/iemis/"
