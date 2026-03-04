@@ -1,5 +1,6 @@
 ---
 title: "An Empirical Framework for Identifying Sentiment from Multimodal Memes using Fusion Approach"
+order: 7
 authors: "Nusratul Jannat, **Avishek Das**, Omar Sharif, Mohammed Moshiul Hoque"
 venue: "ICCIT 2022"
 venue_url: "https://iccit.org.bd/2022/"

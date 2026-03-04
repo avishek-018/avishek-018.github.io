@@ -19,7 +19,9 @@ collections:
     folder: "_publications"
     create: true
     slug: "{{slug}}"
+    sortable_fields: ["order", "title", "authors", "venue"]
     fields:
+      - { label: "Order", name: "order", widget: "number", value_type: "int", min: 1, default: 999 }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Authors", name: "authors", widget: "string" }
       - { label: "Venue", name: "venue", widget: "string" }
