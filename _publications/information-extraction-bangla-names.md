@@ -1,6 +1,5 @@
 ---
 title: "Machine Learning and Deep Learning based Information Extraction from Bangla Names"
-order: 10
 authors: "Md. Kowsher, Md. Zahidul Islam Sanjid, **Avishek Das**, M Ahmed"
 venue: "YSC 2020"
 venue_url: "https://ysc-2020.actcognitive.org/"

@@ -4,7 +4,7 @@ layout: default
 
 {% assign education = site.data.education %}
 
-# Education
+# {{ education.headings.main_title | default: "Education" }}
 
 {% for degree in education.degrees %}
 ### {{ degree.institution }}{% if degree.location and degree.location != "" %} {{ degree.location }}{% endif %}
@@ -19,7 +19,7 @@ layout: default
 {% endfor %}
 
 ---
-# International Certification
+# {{ education.headings.certifications_title | default: "International Certification" }}
 
 {% for cert in education.certifications %}
 ### {{ cert.title }}
@@ -31,7 +31,7 @@ layout: default
 {% endfor %}
 
 ---
-# Online Course/Certification
+# {{ education.headings.courses_title | default: "Online Course/Certification" }}
 {% for course in education.online_courses %}
 {{ forloop.index }}. {{ course.title }} [<i class="fa-solid fa-link"></i>]({{ course.url }})
 

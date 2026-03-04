@@ -1,138 +1,114 @@
 ---
-publications:
-- slug: bangla-text-recognition-multi-headed-cnn
-  order: 1
-  title: Towards building a Bangla text recognition solution with a Multi-Headed CNN
-    architecture
-  authors: Md. Majedul Islam, **Avishek Das**, Ibna Kowsar, AKM Shahariar Azad Rabby,
-    Nazmul Hasan, Fuad Rahman
-  venue: IEEE BigData 2021
-  venue_url: https://bigdataieee.org/BigData2021/
-  paper_url: https://ieeexplore.ieee.org/document/9671653
-  category: Conference
-- slug: bemoc-corpus-identifying-emotion-bengali-texts
-  order: 2
-  title: 'BEmoC: A Corpus for Identifying Emotion in Bengali Texts'
-  authors: MD. Asif Iqbal, **Avishek Das**, Omar Sharif, Mohammed Moshiul Hoque, Iqbal
-    H. Sarker
-  venue: Journal of SN Computer Science
-  venue_url: https://www.springer.com/journal/42979
-  paper_url: https://link.springer.com/article/10.1007%2Fs42979-022-01028-w
-  category: Journal
-- slug: bemod-development-bengali-emotion-dataset
-  order: 3
-  title: 'BEmoD: Development of Bengali Emotion Dataset for Classifying Expressions
-    of Emotion in Texts'
-  authors: "**Avishek Das**, Asif Iqbal, Omar Sharif, Mohammed Moshiul Hoque"
-  venue: ICO 2020
-  venue_url: https://www.icico.info/ico2020-virtual-conference
-  paper_url: https://link.springer.com/chapter/10.1007/978-3-030-68154-8_94
-  category: Conference
-- slug: bmgc-classify-bangla-music-genres
-  order: 4
-  title: 'BMGC: A Deep Learning Approach to Classify Bangla Music Genres'
-  authors: Moumita Sen Sarma and **Avishek Das**
-  venue: NISS 2021
-  venue_url: http://medi-ast.org/NISS2021/
-  paper_url: https://dl.acm.org/doi/10.1145/3454127.3456593
-  category: Conference
-- slug: deepsen-sentiment-analysis-multi-domain
-  order: 5
-  title: 'DeepSen: A Deep Learning-based Framework for Sentiment Analysis from Multi-Domain
-    Heterogeneous Data'
-  authors: Nasehatul Mustakim, **Avishek Das**, Omar Sharif, Mohammed Moshiul Hoque
-  venue: ICCIT 2022
-  venue_url: https://iccit.org.bd/2022/
-  paper_url: https://ieeexplore.ieee.org/abstract/document/10055860/
-  category: Conference
-- slug: emotion-classification-resource-constrained-language
-  order: 6
-  title: Emotion Classification in a Resource Constrained Language Using Transformer-based
-    Approach
-  authors: "**Avishek Das**, Omar Sharif, Mohammed Moshiul Hoque, Iqbal H. Sarker"
-  venue: NAACL SRW 2021
-  venue_url: https://naacl2021-srw.github.io/
-  paper_url: https://aclanthology.org/2021.naacl-srw.19/
-  category: Conference
-- slug: empirical-framework-identifying-sentiment-multimodal-memes
-  order: 7
-  title: An Empirical Framework for Identifying Sentiment from Multimodal Memes using
-    Fusion Approach
-  authors: Nusratul Jannat, **Avishek Das**, Omar Sharif, Mohammed Moshiul Hoque
-  venue: ICCIT 2022
-  venue_url: https://iccit.org.bd/2022/
-  paper_url: https://ieeexplore.ieee.org/abstract/document/10054644
-  category: Conference
-- slug: fand-x-fake-news-detection
-  order: 8
-  title: 'FaND-X: Fake News Detection using Transformer-based Multilingual Masked
-    Language Model'
-  authors: MD Sijanur Rahman, Omar Sharif, **Avishek Das**, Sadia Afroze, Mohammed
-    Moshiul Hoque
-  venue: WIECON ECE 2022
-  venue_url: https://wiecon-ece.org/
-  paper_url: https://ieeexplore.ieee.org/abstract/document/10150461
-  category: Conference
-- slug: gender-identification-bangla-name
-  order: 9
-  title: Gender Identification from Bangla Name Using Machine Learning and Deep Learning
-    Algorithms
-  authors: Md. Kowsher, Md. Zahidul Islam Sanjid, Fahmida Afrin, **Avishek Das**,
-    Pushpita Saha
-  venue: IEMIS 2020
-  venue_url: http://iemschoolofit.in/iemis/
-  paper_url: https://link.springer.com/chapter/10.1007/978-981-33-4367-2_38
-  category: Conference
-- slug: information-extraction-bangla-names
-  order: 10
-  title: Machine Learning and Deep Learning based Information Extraction from Bangla
-    Names
-  authors: Md. Kowsher, Md. Zahidul Islam Sanjid, **Avishek Das**, M Ahmed
-  venue: YSC 2020
-  venue_url: https://ysc-2020.actcognitive.org/
-  paper_url: https://www.sciencedirect.com/science/article/pii/S187705092032398X
-  category: Conference
-- slug: pos-tagging-methods-bengali-language
-  order: 11
-  title: 'Towards POS Tagging Methods for Bengali Language: A Comparative Analysis'
-  authors: Fatima Jahara, Adrita Barua, Asif Iqbal, **Avishek Das**, Omar Sharif,
-    Mohammed Moshiul Hoque, Iqbal H. Sarker
-  venue: ICO 2020
-  venue_url: https://www.icico.info/ico2020-virtual-conference
-  paper_url: https://link.springer.com/chapter/10.1007/978-3-030-68154-8_93
-  category: Conference
-- slug: seqvectorizer-sequence-representation-vector-space
-  order: 12
-  title: 'SeqVectorizer: Sequence Representation in Vector Space'
-  authors: Md. Kowsher, **Avishek Das**, Murad Hossain Sarker, Anik Tahabilder, Md.
-    Zahidul Islam Sanjid
-  venue: NISS 2021
-  venue_url: http://medi-ast.org/NISS2021/
-  paper_url: https://dl.acm.org/doi/10.1145/3454127.3456602
-  category: Conference
-- slug: temox-classification-textual-emotion
-  order: 13
-  title: 'TEmoX: Classification of Textual Emotion using Ensemble of Transformers'
-  authors: "**Avishek Das**, Mohammed Moshiul Hoque, Omar Sharif, M. Ali Akber Dewan,
-    Nazmul Siddique"
-  venue: IEEE ACCESS
-  venue_url: ''
-  paper_url: https://ieeexplore.ieee.org/document/10264097
-  category: Journal
-- slug: traditional-bengali-food-classification-cnn
-  order: 14
-  title: Traditional Bengali Food Classification Using Convolutional Neural Network
-  authors: Asif Mahbub Uddin, Abdullah Al Miraj, Moumita Sen Sarma, **Avishek Das**,
-    Md. Manjurul Gani
-  venue: IEEE TENSYMP 2021
-  venue_url: https://www.tensymp2021.org/2021/
-  paper_url: https://ieeexplore.ieee.org/document/9550874
-  category: Conference
-- slug: unified-solution-character-recognition
-  order: 15
-  title: A Deep Learning Based Unified Solution for Character Recognition
-  authors: "**Avishek Das**, AKM Shahariar Azad Rabby, Ibna Kowsar, Fuad Rahman"
-  venue: ICPR 2022
-  venue_url: https://www.icpr2022.com/
-  paper_url: https://ieeexplore.ieee.org/abstract/document/9956348
-  category: Conference
+sections:
+- name: Journals
+  slug: journals
+  items:
+  - title: 'BEmoC: A Corpus for Identifying Emotion in Bengali Texts'
+    authors: MD. Asif Iqbal, **Avishek Das**, Omar Sharif, Mohammed Moshiul Hoque,
+      Iqbal H. Sarker
+    venue: Journal of SN Computer Science
+    venue_url: https://www.springer.com/journal/42979
+    paper_url: https://link.springer.com/article/10.1007%2Fs42979-022-01028-w
+    slug: bemoc-corpus-identifying-emotion-bengali-texts
+  - title: 'TEmoX: Classification of Textual Emotion using Ensemble of Transformers'
+    authors: "**Avishek Das**, Mohammed Moshiul Hoque, Omar Sharif, M. Ali Akber Dewan,
+      Nazmul Siddique"
+    venue: IEEE ACCESS
+    venue_url: ''
+    paper_url: https://ieeexplore.ieee.org/document/10264097
+    slug: temox-classification-textual-emotion
+- name: Conferences
+  slug: conferences
+  items:
+  - title: Towards building a Bangla text recognition solution with a Multi-Headed
+      CNN architecture
+    authors: Md. Majedul Islam, **Avishek Das**, Ibna Kowsar, AKM Shahariar Azad Rabby,
+      Nazmul Hasan, Fuad Rahman
+    venue: IEEE BigData 2021
+    venue_url: https://bigdataieee.org/BigData2021/
+    paper_url: https://ieeexplore.ieee.org/document/9671653
+    slug: bangla-text-recognition-multi-headed-cnn
+  - title: 'BEmoD: Development of Bengali Emotion Dataset for Classifying Expressions
+      of Emotion in Texts'
+    authors: "**Avishek Das**, Asif Iqbal, Omar Sharif, Mohammed Moshiul Hoque"
+    venue: ICO 2020
+    venue_url: https://www.icico.info/ico2020-virtual-conference
+    paper_url: https://link.springer.com/chapter/10.1007/978-3-030-68154-8_94
+    slug: bemod-development-bengali-emotion-dataset
+  - title: 'BMGC: A Deep Learning Approach to Classify Bangla Music Genres'
+    authors: Moumita Sen Sarma and **Avishek Das**
+    venue: NISS 2021
+    venue_url: http://medi-ast.org/NISS2021/
+    paper_url: https://dl.acm.org/doi/10.1145/3454127.3456593
+    slug: bmgc-classify-bangla-music-genres
+  - title: 'DeepSen: A Deep Learning-based Framework for Sentiment Analysis from Multi-Domain
+      Heterogeneous Data'
+    authors: Nasehatul Mustakim, **Avishek Das**, Omar Sharif, Mohammed Moshiul Hoque
+    venue: ICCIT 2022
+    venue_url: https://iccit.org.bd/2022/
+    paper_url: https://ieeexplore.ieee.org/abstract/document/10055860/
+    slug: deepsen-sentiment-analysis-multi-domain
+  - title: Emotion Classification in a Resource Constrained Language Using Transformer-based
+      Approach
+    authors: "**Avishek Das**, Omar Sharif, Mohammed Moshiul Hoque, Iqbal H. Sarker"
+    venue: NAACL SRW 2021
+    venue_url: https://naacl2021-srw.github.io/
+    paper_url: https://aclanthology.org/2021.naacl-srw.19/
+    slug: emotion-classification-resource-constrained-language
+  - title: An Empirical Framework for Identifying Sentiment from Multimodal Memes
+      using Fusion Approach
+    authors: Nusratul Jannat, **Avishek Das**, Omar Sharif, Mohammed Moshiul Hoque
+    venue: ICCIT 2022
+    venue_url: https://iccit.org.bd/2022/
+    paper_url: https://ieeexplore.ieee.org/abstract/document/10054644
+    slug: empirical-framework-identifying-sentiment-multimodal-memes
+  - title: 'FaND-X: Fake News Detection using Transformer-based Multilingual Masked
+      Language Model'
+    authors: MD Sijanur Rahman, Omar Sharif, **Avishek Das**, Sadia Afroze, Mohammed
+      Moshiul Hoque
+    venue: WIECON ECE 2022
+    venue_url: https://wiecon-ece.org/
+    paper_url: https://ieeexplore.ieee.org/abstract/document/10150461
+    slug: fand-x-fake-news-detection
+  - title: Gender Identification from Bangla Name Using Machine Learning and Deep
+      Learning Algorithms
+    authors: Md. Kowsher, Md. Zahidul Islam Sanjid, Fahmida Afrin, **Avishek Das**,
+      Pushpita Saha
+    venue: IEMIS 2020
+    venue_url: http://iemschoolofit.in/iemis/
+    paper_url: https://link.springer.com/chapter/10.1007/978-981-33-4367-2_38
+    slug: gender-identification-bangla-name
+  - title: Machine Learning and Deep Learning based Information Extraction from Bangla
+      Names
+    authors: Md. Kowsher, Md. Zahidul Islam Sanjid, **Avishek Das**, M Ahmed
+    venue: YSC 2020
+    venue_url: https://ysc-2020.actcognitive.org/
+    paper_url: https://www.sciencedirect.com/science/article/pii/S187705092032398X
+    slug: information-extraction-bangla-names
+  - title: 'Towards POS Tagging Methods for Bengali Language: A Comparative Analysis'
+    authors: Fatima Jahara, Adrita Barua, Asif Iqbal, **Avishek Das**, Omar Sharif,
+      Mohammed Moshiul Hoque, Iqbal H. Sarker
+    venue: ICO 2020
+    venue_url: https://www.icico.info/ico2020-virtual-conference
+    paper_url: https://link.springer.com/chapter/10.1007/978-3-030-68154-8_93
+    slug: pos-tagging-methods-bengali-language
+  - title: 'SeqVectorizer: Sequence Representation in Vector Space'
+    authors: Md. Kowsher, **Avishek Das**, Murad Hossain Sarker, Anik Tahabilder,
+      Md. Zahidul Islam Sanjid
+    venue: NISS 2021
+    venue_url: http://medi-ast.org/NISS2021/
+    paper_url: https://dl.acm.org/doi/10.1145/3454127.3456602
+    slug: seqvectorizer-sequence-representation-vector-space
+  - title: Traditional Bengali Food Classification Using Convolutional Neural Network
+    authors: Asif Mahbub Uddin, Abdullah Al Miraj, Moumita Sen Sarma, **Avishek Das**,
+      Md. Manjurul Gani
+    venue: IEEE TENSYMP 2021
+    venue_url: https://www.tensymp2021.org/2021/
+    paper_url: https://ieeexplore.ieee.org/document/9550874
+    slug: traditional-bengali-food-classification-cnn
+  - title: A Deep Learning Based Unified Solution for Character Recognition
+    authors: "**Avishek Das**, AKM Shahariar Azad Rabby, Ibna Kowsar, Fuad Rahman"
+    venue: ICPR 2022
+    venue_url: https://www.icpr2022.com/
+    paper_url: https://ieeexplore.ieee.org/abstract/document/9956348
+    slug: unified-solution-character-recognition

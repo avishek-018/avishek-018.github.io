@@ -1,6 +1,5 @@
 ---
 title: "BEmoC: A Corpus for Identifying Emotion in Bengali Texts"
-order: 2
 authors: "MD. Asif Iqbal, **Avishek Das**, Omar Sharif, Mohammed Moshiul Hoque, Iqbal H. Sarker"
 venue: "Journal of SN Computer Science"
 venue_url: "https://www.springer.com/journal/42979"
