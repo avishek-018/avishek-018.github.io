@@ -15,7 +15,7 @@ layout: default
 {{ detail }}<br>
 {% endfor %}
 {% endif %}
-<br><br>
+<br>
 {% endfor %}
 
 ---
