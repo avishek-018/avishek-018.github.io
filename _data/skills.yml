@@ -1,0 +1,60 @@
+categories:
+  - name: "Programming Languages"
+    items: ["Python", "C", "C++", "Bash"]
+  - name: "Machine Learning & Deep Learning"
+    items:
+      - "TensorFlow, Keras, PyTorch"
+      - "Scikit-learn, OpenCV, NLTK"
+      - "Neurosymbolic AI"
+      - "Explainable AI (XAI)"
+      - "LSTM / CNN models"
+      - "Concept-based interpretability"
+  - name: "Large Language Models & NLP"
+    items:
+      - "Transformers, BERT, GPT-family models"
+      - "HuggingFace (Transformers, Datasets, Tokenizers)"
+      - "LLM interpretability (hidden neuron analysis, concept induction)"
+      - "Text classification & embeddings"
+      - "Attention analysis"
+      - "Prompt engineering"
+  - name: "Knowledge Graphs & Semantic Technologies"
+    items:
+      - "GraphDB (Ontotext)"
+      - "RDF / OWL, SPARQL"
+      - "Ontology engineering"
+      - "Knowledge graph construction & semantic pipelines"
+      - "TTL modeling"
+      - "Docker-based GraphDB deployment & memory tuning"
+  - name: "Frameworks & Tools"
+    items: ["Jupyter, Git, LaTeX", "Flask, Django", "Docker, Docker Compose", "Linux (Ubuntu)", "HPC / SLURM", "NVIDIA CUDA (basics)"]
+  - name: "Computer Vision & Generative AI"
+    items: ["Stable Diffusion, ControlNet, Diffusers", "HED-based pipelines", "Image-to-image generation", "Data augmentation", "Annotation processing (XML / COCO)"]
+  - name: "Cloud & Server-side"
+    items: ["AWS (EC2, S3)", "GCP", "Firebase", "REST APIs", "Deployment & monitoring"]
+  - name: "Web"
+    items: ["Java", "JavaScript", "SQL"]
+  - name: "Embedded & IoT"
+    items: ["Raspberry Pi, Arduino", "STM32 (FreeRTOS, CAN Bus)", "Real-time systems", "Scheduling (RM, NPCS)", "Cheddar tool analysis"]
+  - name: "Other Technical Skills"
+    items:
+      - "Data engineering (Pandas, NumPy)"
+      - "Time-series modeling (LSTM forecasting)"
+      - "GPS / CAN sensor data processing (agricultural systems)"
+      - "Multi-sensor fusion"
+leadership_roles:
+  - title: "Secretary"
+    org: "Computer Science Graduate Student Association (CSGSA), Kansas State University"
+    start: "September 2025"
+    end: "Present"
+  - title: "Vice Chair (Activity)"
+    org: "IEEE Young Professionals, Bangladesh Section"
+    start: "March 2022"
+    end: "March 2023"
+  - title: "Branch Chairperson"
+    org: "IEEE CUET Student Branch"
+    start: "September 2019"
+    end: "October 2020"
+  - title: "Webmaster"
+    org: "IEEE CUET Student Branch"
+    start: "August 2018"
+    end: "September 2019"

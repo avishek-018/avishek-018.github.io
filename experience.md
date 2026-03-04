@@ -2,29 +2,22 @@
 layout: default
 ---
 
+{% assign experience = site.data.experience %}
+
 # <span class='red_h1'>Academic & Industrial</span>
 
-## Graduate Research Assistant
-<span class="date_large_dp">**Aug 2024 - Present**</span>
-*<span class='font-12'>DaSe Lab, Kansas State University</span>*<br>
+{% for role in experience.roles %}
+## {{ role.role }}
+<span class="date_large_dp">**{{ role.start }} - {{ role.end }}**</span>
+*<span class='font-12'>{{ role.org }}{% if role.location and role.location != "" %}, {{ role.location }}{% endif %}</span>*<br>
 
+{% if role.highlights and role.highlights.size > 0 %}
+{% for point in role.highlights %}
+- {{ point }}
+{% endfor %}
+{% endif %}
 
-## Assessment Developer 
-<span class="date_large_dp">**Sept 2023 - June 2024**</span>
-*<span class='font-12'>Workera, CA, USA</span>*<br>
-
-- Acted as the primary and secondary subject matter expert (SME), contributing to the creation of assessments in areas such as Natural Language Processing (NLP), Responsible AI, Cybersecurity, MLOps, and Computer Vision.
-
-- Streamlined the assessment development process by incorporating large language models (LLMs) to automate content creation.
-
-- Engaged in score calibration and the standardization of learning pathways for Computer Adaptive Tests.
-
-## Lecturer
-<span class="date_large_dp">**July 2022 - July 2024**</span>
-*<span class='font-12'>Dept. of Computer Science & Engineering</span>*<br>
-<span class='font-12'>Chittagong University of Engineering and Technology</span><br>
-<span class="date_small_dp">** **</span>
-
+{% if role.role == "Lecturer" and experience.teaching_table and experience.teaching_table.rows and experience.teaching_table.rows.size > 0 %}
 
 Taught the following theory and sessional courses at CUET.
 
@@ -37,94 +30,25 @@ Taught the following theory and sessional courses at CUET.
   </tr>
 </thead>
 <tbody>
+{% for row in experience.teaching_table.rows %}
   <tr>
-    <td>Structured Programming (C)</td>
-    <td>131</td>
-    <td>Running (Oct '23-)</td>
+    <td>{{ row.course }}</td>
+    <td>{{ row.class_size }}</td>
+    <td>{{ row.status }}</td>
   </tr>
-  <tr>
-    <td>Structured Programming (Sessional)</td>
-    <td>131</td>
-    <td>Running (Oct '23-)</td>
-  </tr>
-  <tr>
-    <td>Compiler Designing</td>
-    <td>125</td>
-    <td>Completed (May '23-Sep '23)</td>
-  </tr>
-  <tr>
-    <td>Compiler Designing (Sessional)</td>
-    <td>125</td>
-    <td>Completed (May '23-Sep '23)</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Artificial Intelligence</td>
-    <td rowspan="2">125</td>
-    <td>Running (Oct '23- )</td>
-  </tr>
-  <tr>
-    <td>Completed (Oct 22-Feb '23)</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Artificial Intelligence (Sessional)</td>
-    <td rowspan="2">125</td>
-    <td>Running (Oct '23 - )</td>
-  </tr>
-  <tr>
-    <td>Completed (Oct'22-Feb'23)</td>
-  </tr>
-  <tr>
-    <td>Software Engineering (Sessional)</td>
-    <td>131</td>
-    <td>Completed (Oct'22-Feb'23)</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Computer Programming and Engineering Analysis (Sessional)</td>
-    <td rowspan="2">30</td>
-    <td>Completed (May '23-Sep-23)</td>
-  </tr>
-  <tr>
-    <td>Completed (Aug '22-Dec '23)</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Computer Programming and Engineering Analysis</td>
-    <td rowspan="2">30</td>
-    <td>Completed (May '23-Sep '23)</td>
-  </tr>
-  <tr>
-    <td>Completed (Aug 22-Dec'23)</td>
-  </tr>
+{% endfor %}
 </tbody>
 </table>
+{% endif %}
 
+{% endfor %}
 
-## Research Co-ordinator
-<span class="date_large_dp">**July 2021 - Present**</span>
-*<span class='font-12'>CUET NLP LAB</span>*<br>
-Graduate member: **July 2021 - Present**
-* Co-supervising students in NLP, ML or DL directions.
-* Experimenting with LLMs and Generative NLP.
+{% if experience.subsections and experience.subsections.size > 0 %}
+{% for subsection in experience.subsections %}
+## {{ subsection.title }}
+{% for entry in subsection.entries %}
+* {{ entry }}
+{% endfor %}
 
-Undergraduate member: **July 2019 - July 2021**
-* Developing benchmark Bengali corpus and datasets.
-* Finding and experimenting with latest language technologies.<br>
-
-
-## Machine Learning Engineer
-<span class="date_large_dp">**July 2021 - July 2022**</span>
-*<span class='font-12'>Apurba Technologies Ltd.</span>*<br>
-<span class="date_small_dp">**July 2021 - July 2022**</span>
-
-Responsibilities-
-* Developing state-of-the-art OCR model for Bengali
-* Model optimization and deployment
-* Handling BIG data
-* R&D on leveraging cutting edge technologies
-
-## AI Consultant and Python Instructor
-<span class="date_large_dp">**July 2021 - July 2022**</span>
-*<span class='font-12'>Diligite Ltd.</span>*<br>
-<span class="date_small_dp">**July 2021 - July 2022**</span>
-
----
-
+{% endfor %}
+{% endif %}

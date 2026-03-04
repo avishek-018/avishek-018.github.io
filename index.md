@@ -2,56 +2,54 @@
 layout: default
 ---
 
+{% assign home = site.data.home %}
 
+<img class="profile-picture" src="{{ home.profile.photo }}">
 
-<img class="profile-picture" src="images/avishek.jpg">
-
-<b>Avishek Das</b><br>
-Graduate Research Assistant, DaSe Lab<br>
-PhD Student, Dept. of Computer Science<br>
-Kansas State University
+<b>{{ home.profile.name }}</b><br>
+{% for line in home.profile.title_lines %}
+{{ line }}<br>
+{% endfor %}
 
 ## About Me
 <div style="text-align: justify">
-Hi, I’m Avishek Das! I am currently working as a Graduate Research Assistant at the Data Semantics Lab (DaSe Lab) at Kansas State University, where I’m lucky to be guided by Dr. Pascal Hitzler. My research is all about making AI more understandable and transparent, using tools like Knowledge Graphs to add a layer of clarity to complex systems. I’m particularly passionate about Explainable AI, Deep Learning, and the Semantic Web, and I’m always exploring new ways to make AI more interpretable and user-friendly. If you’re curious about my work or just want to chat, don’t hesitate to ask!
+{{ home.about_markdown | markdownify }}
 </div><br>
-Find [my CV](https://drive.google.com/file/d/1rTwPZBmA0Ck2q72cWIeXFMkCK0Oglkhb/view?usp=sharing){:target="_blank"} here.
+Find [my CV]({{ home.cv_url }}){:target="_blank"} here.
 
 ## Updates
-<span style="color:green;"> **[11-10-23]** </span> 2 shared task papers accepted at BLP Workshop @EMNLP 2023 <br>
-<span style="color:green;"> **[13-09-23]** </span> Paper accepted at IEEE ACCESS <br>
-<span style="color:green;"> **[16-07-23]** </span> Learning prompts engineering <br>
-<span style="color:green;"> **[10-07-23]** </span> Started exploring multimodal domains(acoustic-visual-textual modalities)
+{% for item in home.updates %}
+<span style="color:green;"> **[{{ item.date_label }}]** </span> {{ item.text }} <br>
+{% endfor %}
 
 ## Learning Resources
 
 Here are some learning resources I found useful throughout my CS journey.
 
 * **LLMs**
-  * LangChain - I love these videos [[Link]](https://www.youtube.com/playlist?list=PLqZXAkvF1bPNQER9mLmDbntNfSpzdDIU5)
+{% for item in home.learning_resources.llms %}
+  * {{ item.label }} [[Link]]({{ item.url }})
+{% endfor %}
 
 * **Books**
-  * Deep Learning with Python [[link]](https://www.manning.com/books/deep-learning-with-python)
-  * Transformers for Natural Language Processing [[link]](https://www.packtpub.com/product/transformers-for-natural-language-processing-second-edition/9781803247335)
-
+{% for item in home.learning_resources.books %}
+  * {{ item.label }} [[Link]]({{ item.url }})
+{% endfor %}
 
 * **Advices**
-   * Collection of Advices [[link]](http://taoxie.cs.illinois.edu/advice.htm)
-   * Advice for Researchers and Students [[link]](https://homes.cs.washington.edu/~mernst/advice/#all-students)
-   * Career advice by [[Andrew Ng]](https://www.youtube.com/watch?v=733m6qBH-jI&t=655s&ab_channel=stanfordonline)
-   * Advice for Research Students [[Jason Eisner]](https://www.cs.jhu.edu/~jason/advice/)
+{% for item in home.learning_resources.advice %}
+  * {{ item.label }} [[Link]]({{ item.url }})
+{% endfor %}
 
 * **Blogs**
-   * ACL Year-Round Mentorship [[Link]](https://mentorship.aclweb.org/Home.html)   
-   * Awesome illustrations of [[Jay Alammar]](http://jalammar.github.io/).
-   * Colah's Blog [[Link]](http://colah.github.io/).
-   * Machine Learning Mystery [[Jason Brownlee]](https://machinelearningmastery.com/category/natural-language-processing/)
-
+{% for item in home.learning_resources.blogs %}
+  * {{ item.label }} [[Link]]({{ item.url }})
+{% endfor %}
 
 ---
 
-Qoute of the month:
+Quote of the month:
 
-> Chase purpose, not perfection
+> {{ home.quote }}
 
 <p hidden><script hidden type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=1&t=tt&d=MeVH9Qx00KxvJNXkBmzujoN28cclz-9WuZm0HnFUH_0'></script></p>

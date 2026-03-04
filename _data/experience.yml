@@ -1,0 +1,106 @@
+roles:
+  - role: "Graduate Research Assistant"
+    org: "DaSe Lab, Kansas State University"
+    location: "KS, USA"
+    start: "Aug 2024"
+    end: "Present"
+    current: true
+    highlights: []
+    tags: ["Research", "Knowledge Graphs", "Explainable AI"]
+  - role: "Assessment Developer"
+    org: "Workera"
+    location: "CA, USA"
+    start: "Sept 2023"
+    end: "June 2024"
+    current: false
+    highlights:
+      - "Acted as the primary and secondary subject matter expert (SME), contributing to assessments in NLP, Responsible AI, Cybersecurity, MLOps, and Computer Vision."
+      - "Streamlined assessment development by incorporating large language models (LLMs) to automate content creation."
+      - "Engaged in score calibration and standardization of learning pathways for Computer Adaptive Tests."
+    tags: ["NLP", "Responsible AI", "MLOps"]
+  - role: "Lecturer"
+    org: "Dept. of Computer Science & Engineering, Chittagong University of Engineering and Technology"
+    location: "Bangladesh"
+    start: "July 2022"
+    end: "July 2024"
+    current: false
+    highlights:
+      - "Taught theory and sessional courses at CUET."
+    tags: ["Teaching", "AI", "Compiler Design"]
+  - role: "Research Coordinator"
+    org: "CUET NLP LAB"
+    location: "Bangladesh"
+    start: "July 2021"
+    end: "Present"
+    current: true
+    highlights:
+      - "Co-supervising students in NLP, ML, and DL directions."
+      - "Experimenting with LLMs and Generative NLP."
+      - "Contributed to benchmark Bengali corpus and dataset development."
+    tags: ["NLP", "LLM", "Coordination"]
+  - role: "Machine Learning Engineer"
+    org: "Apurba Technologies Ltd."
+    location: "Bangladesh"
+    start: "July 2021"
+    end: "July 2022"
+    current: false
+    highlights:
+      - "Developing state-of-the-art OCR model for Bengali."
+      - "Model optimization and deployment."
+      - "Handling big data."
+      - "R&D on leveraging cutting edge technologies."
+    tags: ["OCR", "Deployment", "R&D"]
+  - role: "AI Consultant and Python Instructor"
+    org: "Diligite Ltd."
+    location: "Bangladesh"
+    start: "July 2021"
+    end: "July 2022"
+    current: false
+    highlights: []
+    tags: ["Consulting", "Python"]
+teaching_table:
+  rows:
+    - course: "Structured Programming (C)"
+      class_size: "131"
+      status: "Running (Oct '23-)"
+    - course: "Structured Programming (Sessional)"
+      class_size: "131"
+      status: "Running (Oct '23-)"
+    - course: "Compiler Designing"
+      class_size: "125"
+      status: "Completed (May '23-Sep '23)"
+    - course: "Compiler Designing (Sessional)"
+      class_size: "125"
+      status: "Completed (May '23-Sep '23)"
+    - course: "Artificial Intelligence"
+      class_size: "125"
+      status: "Running (Oct '23-)"
+    - course: "Artificial Intelligence"
+      class_size: "125"
+      status: "Completed (Oct '22-Feb '23)"
+    - course: "Artificial Intelligence (Sessional)"
+      class_size: "125"
+      status: "Running (Oct '23-)"
+    - course: "Artificial Intelligence (Sessional)"
+      class_size: "125"
+      status: "Completed (Oct '22-Feb '23)"
+    - course: "Software Engineering (Sessional)"
+      class_size: "131"
+      status: "Completed (Oct '22-Feb '23)"
+    - course: "Computer Programming and Engineering Analysis (Sessional)"
+      class_size: "30"
+      status: "Completed (May '23-Sep '23)"
+    - course: "Computer Programming and Engineering Analysis (Sessional)"
+      class_size: "30"
+      status: "Completed (Aug '22-Dec '23)"
+    - course: "Computer Programming and Engineering Analysis"
+      class_size: "30"
+      status: "Completed (May '23-Sep '23)"
+    - course: "Computer Programming and Engineering Analysis"
+      class_size: "30"
+      status: "Completed (Aug '22-Dec '23)"
+subsections:
+  - title: "Research Coordinator Timeline"
+    entries:
+      - "Graduate member: July 2021 - Present"
+      - "Undergraduate member: July 2019 - July 2021"

@@ -1,0 +1,17 @@
+intro_markdown: |
+  Feel free to reach out for **research collaborations, academic discussions, or project inquiries**.
+emails:
+  - label: "Email (Personal)"
+    address: "avishek.das.ayan@gmail.com"
+  - label: "Email (Academic)"
+    address: "avishek@ksu.edu"
+profiles:
+  - label: "LinkedIn"
+    url: "https://linkedin.com/in/avishek-d/"
+  - label: "GitHub"
+    url: "https://github.com/avishek-018/"
+  - label: "ResearchGate"
+    url: "https://www.researchgate.net/profile/Avishek-Das-11"
+  - label: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=vmA2X1kAAAAJ"
+show_map_script: true
