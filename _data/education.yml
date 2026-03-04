@@ -1,54 +1,55 @@
----
 headings:
   main_title: Education
   certifications_title: International Certification
   courses_title: Online Course/Certification
 degrees:
-- institution: Kansas State University
-  location: KS, USA
-  program: Ph.D. in Computer Science
-  start: July 2024
-  end: Present
-  details: []
-- institution: Chittagong University of Engineering & Technology (CUET)
-  location: Bangladesh
-  program: M.Sc. in Computer Science and Engineering
-  start: January 2023
-  end: June 2025
-  details:
-  - 'CGPA: 3.62 / 4.00'
-- institution: Chittagong University of Engineering & Technology (CUET)
-  location: Bangladesh
-  program: B.Sc. in Computer Science and Engineering
-  start: February 2016
-  end: June 2021
-  details:
-  - 'CGPA: 3.80 (with Honors) / 4.00'
-  - 'Merit Position: 4th / 120'
+  - institution: Kansas State University
+    location: KS, USA
+    program: Ph.D. in Computer Science
+    start: July 2024
+    end: Present
+    details: []
+  - institution: Chittagong University of Engineering & Technology (CUET)
+    location: Bangladesh
+    program: M.Sc. in Computer Science and Engineering
+    start: January 2023
+    end: June 2025
+    details:
+      - "CGPA: 3.62 / 4.00"
+  - institution: Chittagong University of Engineering & Technology (CUET)
+    location: Bangladesh
+    program: B.Sc. in Computer Science and Engineering
+    start: February 2016
+    end: June 2021
+    details:
+      - "CGPA: 3.80 (with Honors) / 4.00"
+      - "Merit Position: 4th / 120"
 certifications:
-- title: Language Proficiency Test - IELTS
-  score_or_status: 'Score: 8.0'
-  meta: 'Listening - 8.5 | Reading - 9.0 | Speaking - 7.0 | Writing - 6.5; Test taken:
-    Oct 07, 2023'
-  url: ''
-- title: ITEE FE Level-II Examination
-  score_or_status: 'Status: Full Passer'
-  meta: ''
-  url: https://drive.google.com/file/d/1GgsvBvtLp00ZlRSJXc6tImNPn6dT7S6K/view?usp=sharing
+  - title: Language Proficiency Test - IELTS
+    score_or_status: "Score: 8.0"
+    meta: "Listening - 8.5 | Reading - 9.0 | Speaking - 7.0 | Writing - 6.5; Test
+      taken: Oct 07, 2023"
+    url: ""
+  - title: ITEE FE Level-II Examination
+    score_or_status: "Status: Full Passer"
+    meta: ""
+    url: https://drive.google.com/file/d/1GgsvBvtLp00ZlRSJXc6tImNPn6dT7S6K/view?usp=sharing
 online_courses:
-- title: Machine Learning
-  url: https://coursera.org/share/2e93d39c3de855caf2768691025ad4aa
-- title: Natural Language Processing in TensorFlow
-  url: https://coursera.org/share/dc04561f9b1f0042da1cd27de9d11df0
-- title: DeepLearning.AI TensorFlow Developer
-  url: https://coursera.org/share/bcc17a7c9374ffd473b300247f0df335
-- title: DeepLearning.AI Sequence Models
-  url: https://coursera.org/share/264b8f23aed061b5d2ff069950ff2b79
-- title: DeepLearning.AI Neural Networks and Deep Learning
-  url: https://coursera.org/share/e50cd1bf736b654e8b1a507e6051e184
-- title: Convolutional Neural Networks in TensorFlow
-  url: https://coursera.org/share/845837d61ede2598da6dd7a9118573d1
-- title: Data Analyst In Python (Dataquest.IO)
-  url: https://app.dataquest.io/view_cert/H257WCDAVT2NAIUKM4BS/
-- title: Data Scientist In Python (Dataquest.IO)
-  url: https://app.dataquest.io/view_cert/FZU8GX7QFIIWCHD87P27/
+  - url: https://learn.deeplearning.ai/certificates/110d70e9-8ade-4d52-a8dd-d63e3abaaf97?usp=sharing
+    title: DeepLearning.AI Agentic AI
+  - title: DeepLearning.AI TensorFlow Developer
+    url: https://coursera.org/share/bcc17a7c9374ffd473b300247f0df335
+  - title: DeepLearning.AI Sequence Models
+    url: https://coursera.org/share/264b8f23aed061b5d2ff069950ff2b79
+  - title: Natural Language Processing in TensorFlow
+    url: https://coursera.org/share/dc04561f9b1f0042da1cd27de9d11df0
+  - title: DeepLearning.AI Neural Networks and Deep Learning
+    url: https://coursera.org/share/e50cd1bf736b654e8b1a507e6051e184
+  - title: Machine Learning
+    url: https://coursera.org/share/2e93d39c3de855caf2768691025ad4aa
+  - title: Convolutional Neural Networks in TensorFlow
+    url: https://coursera.org/share/845837d61ede2598da6dd7a9118573d1
+  - title: Data Analyst In Python (Dataquest.IO)
+    url: https://app.dataquest.io/view_cert/H257WCDAVT2NAIUKM4BS/
+  - title: Data Scientist In Python (Dataquest.IO)
+    url: https://app.dataquest.io/view_cert/FZU8GX7QFIIWCHD87P27/
