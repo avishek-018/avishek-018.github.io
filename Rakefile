@@ -1,12 +1,12 @@
-require 'html-proofer'
 require 'yaml'
 
 @config  = YAML.load_file '_config.yml'
 @baseurl = ENV['BASEURL'] || @config.dig('baseurl')
 
 task :test do
+  require 'html-proofer'
   Rake::Task["reset"].invoke
-  sh "bundle exec jekyll build -b '#{@baseurl}' -d '_site#{@baseurl}'"
+  sh "jekyll build -b '#{@baseurl}' -d '_site#{@baseurl}'"
   opts = {
     check_external_hash: false,
     allow_hash_href: false,
@@ -24,5 +24,5 @@ task :reset do
 end
 
 task :build do
-  sh "bundle exec jekyll build -b '#{@baseurl}'"
+  sh "jekyll build -b '#{@baseurl}'"
 end
