@@ -15,7 +15,7 @@ layout: default
 
 ## Journals
 ---
-{% assign journal_publications = site.publications | where: "category", "Journal" %}
+{% assign journal_publications = site.publications | where: "category", "Journal" | sort: "order" %}
 {% for publication in journal_publications %}
 * {{ publication.title }}<br>
 {{ publication.authors }}<br>
@@ -24,13 +24,12 @@ layout: default
 
 ## Conferences
 ---
-{% assign conference_publications = site.publications | where: "category", "Conference" %}
+{% assign conference_publications = site.publications | where: "category", "Conference" | sort: "order" %}
 {% for publication in conference_publications %}
 * {{ publication.title }}<br>
 {{ publication.authors }}<br>
 {% if publication.venue_url %}[{{ publication.venue }}]({{ publication.venue_url }}){% else %}{{ publication.venue }}{% endif %}{% if publication.paper_url %} / [Paper]({{ publication.paper_url }}){% endif %}
 {% endfor %}
-
 
 
 
