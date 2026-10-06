@@ -1,18 +1,11 @@
 projects:
   - title: "ML Knowledge Hub: Agentic Hybrid GraphRAG for ML Project Knowledge"
-    summary: >
+    summary: >+
       An agentic GraphRAG assistant that answers questions about ML projects,
       models, datasets and evaluations by combin-
 
       ing a Neo4j knowledge graph with Qdrant semantic search, giving grounded answers with cited sources.
 
-      - A planner–critic–revision agent pipeline converts each question into a structured query plan, reaching 96.7% routing
-
-      accuracy on a 30-query benchmark; supports multi-turn chat by rewriting follow-up questions.
-
-      - Deployed as a Streamlit web app and exposed to AI clients through an MCP server. Live demo: mlknowledge.stream-
-
-      lit.app
     tech_stack:
       - "Python, OpenAI API, Neo4j, Qdrant, Sentence-Transformers, "
       - Streamlit, MCP, Pydantic, pytest
@@ -20,9 +13,11 @@ projects:
       - label: GitHub
         url: https://github.com/avishek-018/MLKnowledgeHub
     bullets:
-      - Built a character-level language model for next-character prediction.
-      - Generated new superhero names by iterative sampling from the trained
-        model.
+      - A planner–critic–revision agent pipeline converts each question into a
+        structured query plan, reaching 96.7% routing accuracy on a 30-query
+        benchmark; supports multi-turn chat by rewriting follow-up questions.
+      - "Deployed as a Streamlit web app and exposed to AI clients through an
+        MCP server. Live demo: mlknowledge.stream- lit.app"
     featured: false
     order: 1
   - title: TransEmoC - A Transformer-Based Unified Toolkit for Emotion
