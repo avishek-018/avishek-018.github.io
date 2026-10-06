@@ -2,24 +2,38 @@ projects:
   - title: "ML Knowledge Hub: Agentic Hybrid GraphRAG for ML Project Knowledge"
     summary: >+
       An agentic GraphRAG assistant that answers questions about ML projects,
-      models, datasets and evaluations by combin-
-
-      ing a Neo4j knowledge graph with Qdrant semantic search, giving grounded answers with cited sources.
+      models, datasets and evaluations by combining a Neo4j knowledge graph with
+      Qdrant semantic search, giving grounded answers with cited sources.
 
     tech_stack:
-      - "Python, OpenAI API, Neo4j, Qdrant, Sentence-Transformers, "
+      - Python, OpenAI API, Neo4j, Qdrant, Sentence-Transformers
       - Streamlit, MCP, Pydantic, pytest
     links:
       - label: GitHub
         url: https://github.com/avishek-018/MLKnowledgeHub
+      - label: Link
+        url: https://mlknowledge.streamlit.app
     bullets:
       - A planner–critic–revision agent pipeline converts each question into a
         structured query plan, reaching 96.7% routing accuracy on a 30-query
         benchmark; supports multi-turn chat by rewriting follow-up questions.
-      - "Deployed as a Streamlit web app and exposed to AI clients through an
-        MCP server. Live demo: mlknowledge.stream- lit.app"
+      - Deployed as a Streamlit web app and exposed to AI clients through an MCP
+        server.
     featured: false
     order: 1
+  - title: "text_hna: Hidden Neuron Activation Analysis on Labeled Text Data"
+    summary: A concept induction process to understand the decision making process
+      of a Deep Learning model while it classifies a text.
+    tech_stack:
+      - Python,Tensorflow
+    links:
+      - label: GitHub
+        url: https://github.com/avishek-018/text_hna
+    bullets:
+      - Uses TensorFlow.js Handpose for hand/finger interaction.
+      - Implements a playful real-time tone generation flow.
+    featured: false
+    order: 2
   - title: TransEmoC - A Transformer-Based Unified Toolkit for Emotion
       Classification in a Low Resource Language
     summary: Toolkit for training and validating transformer-based emotion
@@ -54,21 +68,6 @@ projects:
       - Can track in/out events at classroom entrances from CCTV feeds.
     featured: false
     order: 3
-  - title: Fingertap Tone Generator
-    summary: Hobby project that mimics movie-like computer tones using finger taps.
-    tech_stack:
-      - Python
-      - TensorFlow.js
-      - HTML
-      - CSS
-    links:
-      - label: GitHub
-        url: https://github.com/avishek-018/fingerTap_koimillgeya_mimic
-    bullets:
-      - Uses TensorFlow.js Handpose for hand/finger interaction.
-      - Implements a playful real-time tone generation flow.
-    featured: false
-    order: 4
   - title: Varsity Enrollment Log System
     summary: Django-based university enrollment log system built as a team software
       project.
