@@ -35,6 +35,8 @@ certifications:
     meta: ""
     url: https://drive.google.com/file/d/1GgsvBvtLp00ZlRSJXc6tImNPn6dT7S6K/view?usp=sharing
 online_courses:
+  - title: DeepLearning.AI Machine Learning in Production
+    url: https://www.deeplearning.ai/certificates/3f87ef51-d595-42cb-b220-b876fea0a45c?_gl=1*1gn8ypf*_ga*MTU0NzM0NzUzNi4xNzkxMDkyNTk5*_ga_FR2MZ1VLMS*czE3OTEzMDk1MTckbzIkZzEkdDE3OTEzMDk1MjMkajU0JGwwJGgw&usp=sharing
   - url: https://learn.deeplearning.ai/certificates/110d70e9-8ade-4d52-a8dd-d63e3abaaf97?usp=sharing
     title: DeepLearning.AI Agentic AI
   - title: DeepLearning.AI TensorFlow Developer
