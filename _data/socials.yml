@@ -1,0 +1,10 @@
+# Social links shown on the about page (in this order).
+# Plugin docs: https://github.com/george-gca/jekyll-socials
+cv_pdf: /assets/pdf/Avishek_Das_CV.pdf # path to your CV PDF file
+email: avishek@ksu.edu
+scholar_userid: vmA2X1kAAAAJ # Google Scholar
+semanticscholar_id: 2113241072
+orcid_id: 0000-0002-1589-8322
+research_gate_profile: Avishek-Das-11
+github_username: avishek-018
+linkedin_username: avishek-d

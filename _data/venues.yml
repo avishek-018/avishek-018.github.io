@@ -1,0 +1,7 @@
+# Optional colors/links for the venue badges (the "abbr" field in papers.bib).
+"K-CAP":
+  color: "#512888"
+"NAI":
+  color: "#512888"
+"arXiv":
+  color: "#b31b1b"
