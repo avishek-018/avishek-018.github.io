@@ -2,7 +2,7 @@
 layout: page
 title: ML Knowledge Hub
 description: agentic hybrid GraphRAG assistant for questions about ML projects
-importance: 2
+importance: 1
 category: engineering
 ---
 

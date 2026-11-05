@@ -42,3 +42,33 @@
     margin: 0 auto 1.25rem !important;
   }
 }
+
+/* K-State purple accent instead of the stock al-folio magenta. */
+:root {
+  --global-theme-color: #512888;
+  --global-hover-color: #512888;
+}
+html[data-theme="dark"] {
+  --global-theme-color: #b9a3e3;
+  --global-hover-color: #b9a3e3;
+}
+
+/* Contact icons and highlight boxes near the top of the home page. */
+.top-contact {
+  margin: 0.25rem 0 1.25rem;
+  text-align: left;
+}
+.top-contact .contact-icons {
+  font-size: 1.6rem;
+  text-align: left;
+}
+.top-contact .contact-icons a {
+  margin-right: 0.6rem;
+}
+.home-highlight {
+  border-left: 3px solid var(--global-theme-color);
+  padding: 0.5rem 0.9rem;
+  margin: 1rem 0;
+  background: var(--global-code-bg-color);
+  border-radius: 0 6px 6px 0;
+}
