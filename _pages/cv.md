@@ -24,4 +24,5 @@ description: my full academic CV (updated November 2026).
 - **Teaching:** Lecturer, Dept. of CSE, CUET (2022–2024).
 - **Industry:** Assessment Developer at Workera (2023–2024). Machine Learning Engineer at Apurba Technologies (2021–2022).
 - **Grants:** co-writer on seven proposals to NSF, DOE, USDA-NIFA and Amazon.
-- **Service:** reviewer for IEEE Access and IEEE Transactions on Human-Machine Systems. Secretary of CS-GSA at K-State. Former Vice-Chair of IEEE Young Professionals, Bangladesh Section.
+- **Service:** subreviewer for the World Conference on eXplainable AI (xAI 2026). Reviewer for IEEE Access and IEEE Transactions on Human-Machine Systems. Secretary of CS-GSA at K-State. Former Vice-Chair of IEEE Young Professionals, Bangladesh Section.
+- **Outreach:** volunteer robotics instructor for about 100 rural school students in Bangladesh (2018–2019).
