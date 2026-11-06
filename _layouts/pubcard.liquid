@@ -1,0 +1,63 @@
+---
+---
+{%- comment -%}
+  One publication card, used by _pages/publications.md.
+  Left: venue badge, paper type, year. Right: title, authors, link buttons.
+  data-* attributes feed the search and filters in assets/js/pubfilter.js.
+  Paper type comes from the entry type; abbr ending in "-W" means a workshop
+  paper and abbr US2TS means a poster.
+{%- endcomment -%}
+{%- assign ptype = 'Conference' -%}
+{%- if entry.type == 'article' -%}{%- assign ptype = 'Journal' -%}
+{%- elsif entry.type == 'incollection' -%}{%- assign ptype = 'Book chapter' -%}
+{%- elsif entry.type == 'misc' -%}{%- assign ptype = 'Preprint' -%}
+{%- elsif entry.abbr contains '-W' -%}{%- assign ptype = 'Workshop' -%}
+{%- elsif entry.abbr == 'US2TS' -%}{%- assign ptype = 'Poster' -%}
+{%- endif -%}
+{%- capture authors_text -%}{%- for a in entry.author_array -%}{{ a.first }} {{ a.last }} {% endfor -%}{%- endcapture -%}
+<div class="pub" id="{{ entry.key }}"
+  data-year="{{ entry.year }}"
+  data-type="{{ ptype }}"
+  data-topics="{{ entry.topics }}"
+  data-text="{{ entry.title | strip_html | downcase | escape }} {{ authors_text | downcase | escape }} {{ entry.abbr | downcase }} {{ entry.booktitle | downcase | escape }} {{ entry.journal | downcase | escape }}">
+  <div class="pub__side">
+    {%- assign vcolor = site.data.venues[entry.abbr].color -%}
+    <span class="pub__venue"{% if vcolor %} style="--venue: {{ vcolor }}"{% endif %}>{{ entry.abbr }}</span>
+    <span class="pub__type">{{ ptype }}</span>
+    <span class="pub__year">{{ entry.year }}</span>
+  </div>
+  <div class="pub__main">
+    <div class="pub__title">{{ entry.title }}</div>
+    <div class="pub__authors">
+      {%- for a in entry.author_array -%}
+        {%- assign is_self = false -%}
+        {%- if site.scholar.last_name contains a.last and site.scholar.first_name contains a.first -%}{%- assign is_self = true -%}{%- endif -%}
+        {%- unless forloop.first -%}, {% endunless -%}
+        {%- if is_self -%}<b class="pub__me">{{ a.first }} {{ a.last }}</b>{%- else -%}{{ a.first }} {{ a.last }}{%- endif -%}
+      {%- endfor -%}
+    </div>
+    <div class="pub__venue-full">
+      {%- if entry.journal -%}{{ entry.journal }}{%- elsif entry.booktitle -%}{{ entry.booktitle }}{%- elsif entry.howpublished -%}{{ entry.howpublished }}{%- endif -%}
+    </div>
+    <div class="pub__links">
+      {%- if entry.pdf -%}
+        {%- if entry.pdf contains '://' -%}{%- assign u = entry.pdf -%}{%- else -%}{%- assign u = entry.pdf | prepend: '/assets/pdf/' | relative_url -%}{%- endif -%}
+        <a class="pub__btn pub__btn--paper" href="{{ u }}"><i class="fa-solid fa-file-lines"></i> Paper</a>
+      {%- elsif entry.html -%}
+        <a class="pub__btn pub__btn--paper" href="{{ entry.html }}"><i class="fa-solid fa-file-lines"></i> Paper</a>
+      {%- endif -%}
+      {%- if entry.arxiv -%}<a class="pub__btn" href="https://arxiv.org/abs/{{ entry.arxiv }}"><i class="ai ai-arxiv"></i> arXiv</a>{%- endif -%}
+      {%- if entry.doi -%}<a class="pub__btn" href="https://doi.org/{{ entry.doi }}"><i class="ai ai-doi"></i> DOI</a>{%- endif -%}
+      {%- if entry.code -%}<a class="pub__btn pub__btn--code" href="{{ entry.code }}"><i class="fa-brands fa-github"></i> Code</a>{%- endif -%}
+      {%- if entry.poster -%}
+        {%- if entry.poster contains '://' -%}{%- assign u = entry.poster -%}{%- else -%}{%- assign u = entry.poster | prepend: '/assets/pdf/' | relative_url -%}{%- endif -%}
+        <a class="pub__btn pub__btn--poster" href="{{ u }}"><i class="fa-solid fa-image"></i> Poster</a>
+      {%- endif -%}
+      {%- if entry.preview -%}<a class="pub__btn pub__btn--poster" href="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}"><i class="fa-solid fa-chart-simple"></i> Figure</a>{%- endif -%}
+      {%- if entry.website -%}<a class="pub__btn pub__btn--web" href="{{ entry.website }}"><i class="fa-solid fa-arrow-up-right-from-square"></i> Website</a>{%- endif -%}
+      {%- if entry.bibtex_show -%}
+        <details class="pub__bib"><summary class="pub__btn"><i class="fa-solid fa-quote-right"></i> BibTeX</summary><pre>{{ entry.bibtex | hideCustomBibtex }}</pre></details>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
