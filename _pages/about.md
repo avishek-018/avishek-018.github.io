@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # rendered below as cards (same style as the publications page)
 social: false # contact links are shown as buttons at the top instead
 
 announcements:
@@ -78,4 +78,10 @@ I am now applying these ideas to sparse-autoencoder features inside open-weight 
   </div>
 {%- endfor -%}
 </div>
+</div>
+
+<h2 class="section-heading"><a href="{{ '/publications/' | relative_url }}">selected publications</a></h2>
+
+<div class="pubs pubs--home">
+{% bibliography --template pubcard --group_by none --query @*[selected=true]* %}
 </div>
