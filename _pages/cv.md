@@ -3,7 +3,7 @@ layout: page
 permalink: /cv/
 title: CV
 nav: true
-nav_order: 4
+nav_order: 5
 description: my full academic CV (updated November 2026).
 ---
 
