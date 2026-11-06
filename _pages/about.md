@@ -10,31 +10,72 @@ profile:
   image_circular: false # crops the image to make it circular
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # contact links are shown as buttons at the top instead
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 6 # leave blank to include all the news in the `_news` folder
+  enabled: false # news is rendered below as a year-grouped timeline instead
 
 latest_posts:
   enabled: false
 ---
 
-<div class="social top-contact"><div class="contact-icons">{% social_links %}</div></div>
+{%- comment -%}
+  Citation popovers: each <span class="cites"> shows its list of papers on hover
+  or keyboard focus (tap on phones). Links point to entries on the publications page.
+{%- endcomment -%}
 
-I am a Ph.D. candidate in Computer Science at **Kansas State University**, where I work in the [Data Semantics Lab (DaSe Lab)](https://daselab.cs.ksu.edu/) with [Dr. Pascal Hitzler](https://people.cs.ksu.edu/~hitzler/).
+<p class="intro">
+I am a Ph.D. candidate in Computer Science at <a href="https://www.k-state.edu/">Kansas State University</a>, advised by <a href="https://people.cs.ksu.edu/~hitzler/">Dr. Pascal Hitzler</a> in the Data Semantics Lab. My research asks a simple question: <b>what has a neural network actually learned?</b> I build neurosymbolic methods that label the hidden units of deep networks with human-readable concepts, using concept induction over OWL knowledge graphs
+<span class="cites" tabindex="0">[1&ndash;2]<span class="cites__pop">
+<a class="cites__item" href="{{ '/publications/#dalal2026toward' | relative_url }}"><span class="cites__n">1</span><span class="cites__t">Toward a Neurosymbolic Understanding of Hidden Neuron Activations<span class="cites__v">Neurosymbolic Artificial Intelligence 2026</span></span></a>
+<a class="cites__item" href="{{ '/publications/#dalal2026hiddencnn' | relative_url }}"><span class="cites__n">2</span><span class="cites__t">Neurosymbolic Hidden Neuron Analysis in Convolutional Neural Networks<span class="cites__v">Elsevier book chapter 2026</span></span></a>
+</span></span>,
+and extend them from images to text, audio and contextual bias
+<span class="cites" tabindex="0">[3&ndash;5]<span class="cites__pop">
+<a class="cites__item" href="https://daselab.cs.ksu.edu/uploads/3731443_3771369_feec3e7285.pdf"><span class="cites__n">3</span><span class="cites__t">Hidden Neuron Activation Analysis on Labeled Text Data<span class="cites__v">K-CAP 2025</span></span></a>
+<a class="cites__item" href="https://arxiv.org/abs/2610.40414"><span class="cites__n">4</span><span class="cites__t">Bridging Neural Representations and Symbolic Semantics in Audio Classification<span class="cites__v">arXiv 2026</span></span></a>
+<a class="cites__item" href="{{ '/publications/#dalal2026contextual' | relative_url }}"><span class="cites__n">5</span><span class="cites__t">Understanding Contextual Bias in Agricultural CNNs Through Hidden-Neuron Concept Induction<span class="cites__v">arXiv 2026</span></span></a>
+</span></span>.
+I am now applying these ideas to sparse-autoencoder features inside open-weight LLMs, and I also build knowledge-graph systems for LLM agents
+<span class="cites" tabindex="0">[6&ndash;7]<span class="cites__pop">
+<a class="cites__item" href="{{ '/projects/2_ml_knowledge_hub/' | relative_url }}"><span class="cites__n">6</span><span class="cites__t">ML Knowledge Hub: agentic hybrid GraphRAG with an MCP server<span class="cites__v">Project · live demo</span></span></a>
+<a class="cites__item" href="{{ '/publications/#barua2026reasoning' | relative_url }}"><span class="cites__n">7</span><span class="cites__t">Reasoning in Large Language Models: RAG and Beyond<span class="cites__v">Elsevier book chapter 2026</span></span></a>
+</span></span>.
+</p>
 
-My research asks a simple question: **what has a neural network actually learned?** I build neurosymbolic methods that explain the hidden units of deep networks in human-readable terms. Using concept induction over OWL knowledge graphs, I label what individual neurons and learned features detect. I have applied this to image models and text classifiers, and I am now applying it to the internal representations of open-weight LLMs through sparse autoencoders.
-
-**Research interests:** explainable and neurosymbolic AI · model and LLM interpretability · knowledge graphs · LLM agents and agentic AI · computer vision and NLP · MLOps.
-
-**Skills:** Python · PyTorch · TensorFlow · Hugging Face Transformers · LLMs, RAG and GraphRAG · agentic systems and MCP · sparse autoencoders · concept induction (DL-Learner) · OWL/RDF, SPARQL · Neo4j · Qdrant · Docker · AWS · HPC/SLURM.
-
-<div class="home-highlight" markdown="1">
-**Featured build: [ML Knowledge Hub](/projects/2_ml_knowledge_hub/).** An agentic GraphRAG assistant that combines a Neo4j knowledge graph with Qdrant semantic search, with a planner, critic and revision pipeline (96.7% routing accuracy) exposed through an MCP server. [Live demo](https://mlknowledge.streamlit.app).
+<div class="idlinks">
+  <a class="idlink" href="mailto:avishek@ksu.edu"><i class="fa-solid fa-envelope"></i> Email</a>
+  <a class="idlink" href="{{ '/assets/pdf/Avishek_Das_CV.pdf' | relative_url }}"><i class="fa-solid fa-file-lines"></i> CV</a>
+  <a class="idlink" href="https://scholar.google.com/citations?user=vmA2X1kAAAAJ"><i class="ai ai-google-scholar"></i> Scholar</a>
+  <a class="idlink" href="https://github.com/avishek-018"><i class="fa-brands fa-github"></i> GitHub</a>
+  <a class="idlink" href="https://www.linkedin.com/in/avishek-d/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+  <a class="idlink" href="https://orcid.org/0000-0002-1589-8322"><i class="ai ai-orcid"></i> ORCID</a>
 </div>
 
-Before K-State, I was a Lecturer in Computer Science & Engineering at [CUET](https://www.cuet.ac.bd/) and the research coordinator of the CUET NLP Lab. There I supervised more than 25 undergraduate researchers working on low-resource NLP and multimodal learning. I also built the Bangla OCR system used in the Government of Bangladesh's national OCR service, and I designed AI skill assessments for Workera.
+<p class="skills-line"><b>Tools I work with:</b> PyTorch · Hugging Face · LLMs, RAG and GraphRAG · MCP and agents · sparse autoencoders · DL-Learner · OWL/RDF, SPARQL · Neo4j · Docker · AWS</p>
 
-I am happy to talk about research collaborations. The best way to reach me is by [email](mailto:avishek@ksu.edu).
+<h2 class="section-heading"><a href="{{ '/news/' | relative_url }}">updates</a></h2>
+
+<div class="updates-wrap">
+<div class="updates">
+{%- assign news_sorted = site.news | sort: 'date' | reverse -%}
+{%- assign current_year = '' -%}
+{%- for item in news_sorted -%}
+  {%- assign y = item.date | date: '%Y' -%}
+  {%- if y != current_year -%}
+    <div class="update-year">{{ y }}</div>
+    {%- assign current_year = y -%}
+  {%- endif -%}
+  <div class="update">
+    <span class="update__date">{{ item.date | date: '%d %b' }}</span>
+    <span class="update__text">
+      {%- if item.inline -%}
+        {{ item.content | remove: '<p>' | remove: '</p>' | strip | emojify }}
+      {%- else -%}
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {%- endif -%}
+    </span>
+  </div>
+{%- endfor -%}
+</div>
+</div>

@@ -17,6 +17,10 @@ description: my full academic CV (updated November 2026).
   <p>Your browser can't show the PDF here. <a href="{{ '/assets/pdf/Avishek_Das_CV.pdf' | relative_url }}">Download the CV</a> instead.</p>
 </object>
 
+## Before K-State
+
+I was a Lecturer in Computer Science & Engineering at [CUET](https://www.cuet.ac.bd/) and the research coordinator of the CUET NLP Lab, where I supervised more than 25 undergraduate researchers working on low-resource NLP and multimodal learning. In industry, I built the Bangla OCR system used in the Government of Bangladesh's national OCR service at Apurba Technologies, and I designed AI skill assessments for Workera.
+
 ## At a glance
 
 - **Education:** Ph.D. in Computer Science, Kansas State University (2024–present, expected Summer 2028). M.Sc. (2025) and B.Sc. (2021, with Honors, ranked 4th of 120) in CSE, Chittagong University of Engineering and Technology.
