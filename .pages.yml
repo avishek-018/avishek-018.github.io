@@ -39,6 +39,12 @@ content:
         label: Text
         type: rich-text
 
+  - name: publications
+    label: Publications (BibTeX)
+    type: file
+    path: _bibliography/papers.bib
+    format: code
+
   - name: projects
     label: Projects
     type: collection
