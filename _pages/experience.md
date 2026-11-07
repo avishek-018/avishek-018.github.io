@@ -125,10 +125,18 @@ description: Research, teaching and industry work, education, skills, service an
 <div class="cv-entry">
   <div class="cv-row"><b>M.Sc. in Computer Science &amp; Engineering</b><span class="cv-date">Jan 2023 – Jun 2025</span></div>
   <div class="cv-row cv-sub"><span>Chittagong University of Engineering and Technology (CUET) · CGPA 3.62/4.00</span><span>Chattogram, Bangladesh</span></div>
+  <ul>
+    <li>Thesis on multimodal emotion recognition from audio, video and text with cross-modal attention, published as <a href="{{ '/publications/#das2024avater' | relative_url }}">AVaTER</a> (Sensors 2024).</li>
+    <li>Advisor: <a href="https://scholar.google.com/citations?user=srYxYhcAAAAJ">Dr. Mohammed Moshiul Hoque</a></li>
+  </ul>
 </div>
 <div class="cv-entry">
   <div class="cv-row"><b>B.Sc. in Computer Science &amp; Engineering, with Honors</b><span class="cv-date">Feb 2016 – Jun 2021</span></div>
   <div class="cv-row cv-sub"><span>CUET · CGPA 3.80/4.00 · ranked 4th of 120</span><span>Chattogram, Bangladesh</span></div>
+  <ul>
+    <li>Thesis on transformer-based emotion classification for Bengali text, published at the <a href="{{ '/publications/#das2021emotion' | relative_url }}">NAACL 2021 Student Research Workshop</a>.</li>
+    <li>Advisor: <a href="https://scholar.google.com/citations?user=srYxYhcAAAAJ">Dr. Mohammed Moshiul Hoque</a></li>
+  </ul>
 </div>
 
 </section>
