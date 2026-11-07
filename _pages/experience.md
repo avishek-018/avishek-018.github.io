@@ -120,7 +120,7 @@ description: Research, teaching and industry work, education, skills, service an
 
 <div class="cv-entry">
   <div class="cv-row"><b>Ph.D. in Computer Science</b><span class="cv-date">Jul 2024 – present</span></div>
-  <div class="cv-row cv-sub"><span>Kansas State University · Advisor: Dr. Pascal Hitzler · GPA 4.00/4.00</span><span>Expected Summer 2028</span></div>
+  <div class="cv-row cv-sub"><span>Kansas State University · Advisor: <a href="https://people.cs.ksu.edu/~hitzler/">Dr. Pascal Hitzler</a> · GPA 4.00/4.00</span><span>Expected Summer 2028</span></div>
 </div>
 <div class="cv-entry">
   <div class="cv-row"><b>M.Sc. in Computer Science &amp; Engineering</b><span class="cv-date">Jan 2023 – Jun 2025</span></div>
