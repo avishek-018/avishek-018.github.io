@@ -14,7 +14,6 @@ nav_order: 1
 {%- endcomment -%}
 
 {%- assign topics = "xai:Explainable & Neurosymbolic AI|kg:Knowledge Graphs & LLMs|mm:Multimodal|emo:Emotion & Sentiment|hate:Hate & Misinformation|ocr:OCR & Vision|other:Others" | split: "|" -%}
-{%- assign years = "2026,2025,2024,2023,2022,2021,2020" | split: "," -%}
 
 <div class="pubbar">
   <div class="pubbar__top">
@@ -38,7 +37,7 @@ nav_order: 1
   </div>
   <div class="seg" id="pub-years" role="group" aria-label="Year">
     <button type="button" class="is-on" data-v="">All</button>
-    {%- for y in years %}<button type="button" data-v="{{ y }}">{{ y }}</button>{% endfor %}
+    <!-- one button per year, added by pubfilter.js from the papers on the page -->
   </div>
   <div class="chips" id="pub-topics" role="group" aria-label="Topic">
     <button type="button" class="chip is-on" data-v="">All</button>

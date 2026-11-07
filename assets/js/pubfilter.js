@@ -43,6 +43,21 @@
     empty.hidden = shown !== 0;
   }
 
+  // Year buttons come from the papers themselves, so a new year needs no edit.
+  var yearBar = document.getElementById("pub-years");
+  cards
+    .map(function (c) { return c.dataset.year; })
+    .filter(function (y, i, a) { return y && a.indexOf(y) === i; })
+    .sort()
+    .reverse()
+    .forEach(function (y) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.dataset.v = y;
+      b.textContent = y;
+      yearBar.appendChild(b);
+    });
+
   pick("pub-years", "year");
   pick("pub-topics", "topic");
   q.addEventListener("input", apply);
