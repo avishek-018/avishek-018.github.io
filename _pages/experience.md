@@ -120,15 +120,15 @@ description: Research, teaching and industry work, education, skills, service an
 
 <div class="cv-entry">
   <div class="cv-row"><b>Ph.D. in Computer Science</b><span class="cv-date">Jul 2024 – present</span></div>
-  <div class="cv-row cv-sub"><span>Kansas State University · Advisor: Dr. Pascal Hitzler</span><span>Expected Summer 2028</span></div>
+  <div class="cv-row cv-sub"><span>Kansas State University · Advisor: Dr. Pascal Hitzler · GPA 4.00/4.00</span><span>Expected Summer 2028</span></div>
 </div>
 <div class="cv-entry">
   <div class="cv-row"><b>M.Sc. in Computer Science &amp; Engineering</b><span class="cv-date">Jan 2023 – Jun 2025</span></div>
-  <div class="cv-row cv-sub"><span>Chittagong University of Engineering and Technology (CUET)</span><span>Chattogram, Bangladesh</span></div>
+  <div class="cv-row cv-sub"><span>Chittagong University of Engineering and Technology (CUET) · CGPA 3.62/4.00</span><span>Chattogram, Bangladesh</span></div>
 </div>
 <div class="cv-entry">
   <div class="cv-row"><b>B.Sc. in Computer Science &amp; Engineering, with Honors</b><span class="cv-date">Feb 2016 – Jun 2021</span></div>
-  <div class="cv-row cv-sub"><span>CUET · ranked 4th of 120</span><span>Chattogram, Bangladesh</span></div>
+  <div class="cv-row cv-sub"><span>CUET · CGPA 3.80/4.00 · ranked 4th of 120</span><span>Chattogram, Bangladesh</span></div>
 </div>
 
 </section>

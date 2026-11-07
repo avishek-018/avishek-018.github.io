@@ -31,7 +31,15 @@
   });
   function fromHash() {
     var id = location.hash.slice(1);
-    if (!id || !show(id)) show(tabs[0].getAttribute("aria-controls"));
+    if (!id || !show(id)) {
+      show(tabs[0].getAttribute("aria-controls"));
+      return;
+    }
+    // A tab link like #industry should land on the tab bar, not below it.
+    requestAnimationFrame(function () {
+      bar.scrollIntoView({ block: "start" });
+      window.scrollBy(0, -80);
+    });
   }
   window.addEventListener("hashchange", fromHash);
   fromHash();
