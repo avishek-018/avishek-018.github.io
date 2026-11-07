@@ -3,6 +3,7 @@ layout: page
 title: ML Knowledge Hub
 description: agentic hybrid GraphRAG assistant for questions about ML projects
 importance: 1
+github: https://github.com/avishek-018/MLKnowledgeHub
 category: engineering
 ---
 
@@ -12,6 +13,6 @@ An agentic **GraphRAG** assistant that answers questions about ML projects, mode
 - A planner, critic and revision agent pipeline turns each question into a structured query plan, with 96.7% routing accuracy on a 30-query benchmark. It supports multi-turn chat.
 - Deployed on Streamlit and exposed to AI clients through an **MCP server**.
 
-**Live demo:** [mlknowledge.streamlit.app](https://mlknowledge.streamlit.app)
+**Code:** [GitHub](https://github.com/avishek-018/MLKnowledgeHub) · **Live demo:** [mlknowledge.streamlit.app](https://mlknowledge.streamlit.app)
 
 **Tools:** Python, OpenAI API, Neo4j, Qdrant, Sentence-Transformers, Streamlit, MCP, Pydantic, pytest.

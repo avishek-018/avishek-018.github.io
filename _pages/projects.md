@@ -5,7 +5,6 @@ permalink: /projects/
 description: research software, tools and systems I have built.
 nav: true
 nav_order: 2
-display_categories: [research, engineering]
 horizontal: false
 ---
 
