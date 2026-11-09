@@ -106,3 +106,14 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
+      - name: Upload to Hostinger (FTP) 📤
+        # Same FTP secrets the old ci:deploy workflow used (ftp_server, ftp_username,
+        # ftp_password). avishekdas.net is served by Hostinger from these files.
+        if: github.event_name != 'pull_request'
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.ftp_server }}
+          username: ${{ secrets.ftp_username }}
+          password: ${{ secrets.ftp_password }}
+          local-dir: ./_site/
+          state-name: ./.ftp-deploy-sync-state.json
