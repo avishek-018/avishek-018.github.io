@@ -1,0 +1,93 @@
+# Pages CMS configuration (https://pagescms.org/docs/configuration/)
+# Sign in at https://app.pagescms.org with GitHub and open this repository.
+# Every save is a normal commit to the repo, so the site rebuilds automatically.
+
+media:
+  input: assets/img
+  output: /assets/img
+
+content:
+  - name: news
+    label: News
+    type: collection
+    path: _news
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      fields: [date, body]
+      primary: date
+      sort: [date]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: layout
+        type: string
+        default: post
+        hidden: true
+      - name: date
+        label: Date
+        type: date
+        required: true
+      - name: inline
+        label: Short item (shown in full on the home page)
+        type: boolean
+        default: true
+      - name: title
+        label: Title (only for long items)
+        type: string
+      - name: body
+        label: Text
+        type: rich-text
+
+  - name: publications
+    label: Publications (BibTeX)
+    type: file
+    path: _bibliography/papers.bib
+    format: code
+
+  - name: projects
+    label: Projects
+    type: collection
+    path: _projects
+    view:
+      fields: [title, importance]
+      primary: title
+    fields:
+      - name: layout
+        type: string
+        default: page
+        hidden: true
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: description
+        label: One-line description
+        type: string
+      - name: importance
+        label: Order (1 = first)
+        type: number
+      - name: img
+        label: Card image
+        type: image
+      - name: github
+        label: GitHub URL
+        type: string
+      - name: body
+        label: Page content
+        type: rich-text
+
+  - name: socials
+    label: Social links
+    type: file
+    path: _data/socials.yml
+    format: yaml
+    fields:
+      - { name: email, label: Email, type: string }
+      - { name: scholar_userid, label: Google Scholar ID, type: string }
+      - { name: semanticscholar_id, label: Semantic Scholar ID, type: string }
+      - { name: orcid_id, label: ORCID, type: string }
+      - { name: research_gate_profile, label: ResearchGate profile, type: string }
+      - { name: github_username, label: GitHub username, type: string }
+      - { name: linkedin_username, label: LinkedIn username, type: string }
+      - { name: cv_pdf, label: CV PDF path, type: string }

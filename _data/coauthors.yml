@@ -1,0 +1,5 @@
+# Co-authors whose names link to their homepage on the publications page.
+# Key is the lowercase last name.
+"hitzler":
+  - firstname: ["Pascal", "P."]
+    url: https://people.cs.ksu.edu/~hitzler/
