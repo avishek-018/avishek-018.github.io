@@ -4,7 +4,7 @@ permalink: /experience/
 title: experience
 nav: true
 nav_order: 3
-description: Research, teaching and industry work, education, skills, service and awards.
+description: Research, teaching, consulting and industry work, education, skills, service and awards.
 ---
 
 {%- comment -%}
@@ -53,7 +53,16 @@ description: Research, teaching and industry work, education, skills, service an
   </ul>
 </div>
 
-<h2 class="cv-h">Teaching</h2>
+<h2 class="cv-h">Teaching and consulting</h2>
+
+<div class="cv-entry">
+  <div class="cv-row"><b>AI Consultant</b><span class="cv-date">Jun 2026 – present</span></div>
+  <div class="cv-row cv-sub"><span>K-State AI Consultation Services (KAICS), Kansas State University</span><span>Manhattan, KS</span></div>
+  <ul>
+    <li>Advise faculty, staff and students on using AI effectively in their research and projects.</li>
+    <li>Conducted a workshop on image processing with AI.</li>
+  </ul>
+</div>
 
 <div class="cv-entry">
   <div class="cv-row"><b>Lecturer, Department of Computer Science &amp; Engineering</b><span class="cv-date">Jul 2022 – Jun 2024</span></div>
