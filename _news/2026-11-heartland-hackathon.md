@@ -2,7 +2,5 @@
 layout: post
 date: 2026-11-01
 inline: true
-related_posts: false
 ---
-
-Mentoring teams at the AI Hackathon of the **Heartland AI Symposium** at Kansas State University.
+Mentoring and Judging teams at the AI Hackathon of the **Heartland AI Symposium** 2026 at Kansas State University.
